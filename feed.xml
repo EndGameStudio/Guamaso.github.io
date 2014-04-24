@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Wintersmith's blog</title>
-    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://localhost:8080</link>
-    <description>Ramblings of an immor(t)al demigod</description>
+    <title>Juan's Dev Journal</title>
+    <atom:link href="http://guamaso.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://guamaso.github.io/</link>
+    <description>Dev journal, snippets, and rants.</description>
     <pubDate>Mon, 01 Oct 2012 15:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>Hello World!</title>
-      <link>http://localhost:8080/articles/helloworld/</link>
+      <link>http://guamaso.github.io//articles/helloworld/</link>
       <pubDate>Mon, 01 Oct 2012 15:00:00 -0400</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/helloworld/</guid>
+      <guid isPermaLink="true">http://guamaso.github.io//articles/helloworld/</guid>
       <author></author>
       <description>&lt;p&gt;I like Ruby in the same way that I like craft/micro beers. I actually don’t like beer, but I like the idea that there is a growing trend for something better than your mass produced, corn syrup sweetened, GMO wheat fermentation. Ruby’s great… but I’m more of a hard cider guy. &lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
