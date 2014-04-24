@@ -5,9 +5,38 @@
     <atom:link href="http://guamaso.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://guamaso.github.io/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Wed, 23 Apr 2014 15:00:00 -0400</pubDate>
+    <pubDate>Thu, 24 Apr 2014 15:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Blocking Right Click Is Just Bad</title>
+      <link>http://guamaso.github.io//articles/right-click-blocking-is-bad/</link>
+      <pubDate>Thu, 24 Apr 2014 15:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://guamaso.github.io//articles/right-click-blocking-is-bad/</guid>
+      <author></author>
+      <description>&lt;p&gt;My uncle’s family owns their own successful restaurant back in California. Really great Mexican food. Most dishes are authentic to the area they are from back in Mexico. Other dishes are hybrids to cater to different tastes but it’s all good grub!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Anyway, every now and then, I’ll look at websites of people I know and look for stuff to mock and cajole.  By mock and cajole, I mean to say, analyze and learn what NOT to do.&lt;/p&gt;
+&lt;p&gt;The exciting part is to see their site using a more mobile first approach. The site is responsive, albeit a little clunky.  Even the obvious stock photography isn’t that bad. &lt;/p&gt;
+&lt;p&gt;I was impressed. So, here I go to try and look up the agency that created the site. I scroll to the footer, find the typical “Designed by” link and right click on it when suddenly… BOOM. Browser alert message.&lt;/p&gt;
+&lt;p&gt;Here’s what it says: &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;XXXXX does not allow you to copy or extract any information and/or images from this website.**PLEASE DO NOT TRY THIS ACTION AGAIN**&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I personally know the owners and even I felt a little miffed by the assumption that I was going to steal their horrible stock photos… or the photos of my Uncle with his hugantic cheezer. &lt;/p&gt;
+&lt;p&gt;Here’s the deal, most users don’t want to steal. Most users might want to print the page using right click. Or, in my case, open a link in new tab.  Maybe they want to copy your phone number to the clipboard to save into some phone book application.  There are a number of use cases that require the right click which means that by disabling it with a blatantly rude message results in a poor experience for your site and, in turn, your brand.&lt;/p&gt;
+&lt;p&gt;“What about the people that &lt;em&gt;do&lt;/em&gt; want to steal my stuff?” Try this: Hold down CTRL+S. You just stole your stuff. Are you going to block the CTRL key now too? Are you aware that I can disrupt the code that blocks the right click?&lt;/p&gt;
+&lt;p&gt;You need to understand how the internet works. The browser is receiving files from the internet, specifically a computer somewhere that holds your site. These files are delivered and the connection between the browser and the server is closed. Guess what? Those files now exist on the person’s computer. The user didn’t need to right click to steal them; they’re already there! &lt;/p&gt;
+&lt;p&gt;People that want to steal photos of my Uncle holding an awesome plate of seafood with the restaurant logo underneath are going to steal it. There is nothing you can do.&lt;/p&gt;
+&lt;p&gt;What you are doing, though, is creating a bad experience for the legit people.&lt;/p&gt;
+&lt;h2 id=&quot;final-notes&quot;&gt;Final Notes&lt;/h2&gt;
+&lt;p&gt;After reviewing the code that handles the alert, I found this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt;(closeWin==&lt;span class=&quot;string&quot;&gt;&quot;1&quot;&lt;/span&gt;) self.close();
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If &lt;code&gt;closeWin&lt;/code&gt; is set to &lt;code&gt;1&lt;/code&gt;, the tab will close. WOW. You have just fired your customer before they became your customer. You essentially threw away money. Bravo.&lt;/p&gt;
+&lt;p&gt;Here’s the &lt;a href=&quot;https://gist.github.com/Guamaso/11240273&quot;&gt;whole script&lt;/a&gt; I mined out of the site. It seems like it is a snippet grabbed from someone else, otherwise I wouldn’t use it without permission.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Hello World!</title>
       <link>http://guamaso.github.io//articles/helloworld/</link>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Blocking Right Click Is Just Bad - Juan's Dev Journal
+    </title>
+    <link rel="alternate" href="http://guamaso.github.io//feed.xml" type="application/rss+xml" title="Dev journal, snippets, and rants.">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Blocking Right Click Is Just Bad</h1>
+        <p class="author">Written by <span class="author"><a href="mailto:juanthedesigner@gmail.com">Juan Orozco</a></span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>My uncle’s family owns their own successful restaurant back in California. Really great Mexican food. Most dishes are authentic to the area they are from back in Mexico. Other dishes are hybrids to cater to different tastes but it’s all good&nbsp;grub!</p>
+<p><span class="more"></span></p>
+<p>Anyway, every now and then, I’ll look at websites of people I know and look for stuff to mock and cajole.  By mock and cajole, I mean to say, analyze and learn what <span class="caps">NOT</span> to&nbsp;do.</p>
+<p>The exciting part is to see their site using a more mobile first approach. The site is responsive, albeit a little clunky.  Even the obvious stock photography isn’t that&nbsp;bad. </p>
+<p>I was impressed. So, here I go to try and look up the agency that created the site. I scroll to the footer, find the typical “Designed by” link and right click on it when suddenly… <span class="caps">BOOM</span>. Browser alert&nbsp;message.</p>
+<p>Here’s what it&nbsp;says: </p>
+<blockquote>
+<p><span class="caps">XXXXX</span> does not allow you to copy or extract any information and/or images from this website.**PLEASE DO NOT TRY THIS ACTION&nbsp;AGAIN**</p>
+</blockquote>
+<p>I personally know the owners and even I felt a little miffed by the assumption that I was going to steal their horrible stock photos… or the photos of my Uncle with his hugantic&nbsp;cheezer. </p>
+<p>Here’s the deal, most users don’t want to steal. Most users might want to print the page using right click. Or, in my case, open a link in new tab.  Maybe they want to copy your phone number to the clipboard to save into some phone book application.  There are a number of use cases that require the right click which means that by disabling it with a blatantly rude message results in a poor experience for your site and, in turn, your&nbsp;brand.</p>
+<p>“What about the people that <em>do</em> want to steal my stuff?” Try this: Hold down <span class="caps">CTRL</span>+S. You just stole your stuff. Are you going to block the CTRL key now too? Are you aware that I can disrupt the code that blocks the right&nbsp;click?</p>
+<p>You need to understand how the internet works. The browser is receiving files from the internet, specifically a computer somewhere that holds your site. These files are delivered and the connection between the browser and the server is closed. Guess what? Those files now exist on the person’s computer. The user didn’t need to right click to steal them; they’re already&nbsp;there! </p>
+<p>People that want to steal photos of my Uncle holding an awesome plate of seafood with the restaurant logo underneath are going to steal it. There is nothing you can&nbsp;do.</p>
+<p>What you are doing, though, is creating a bad experience for the legit&nbsp;people.</p>
+<h2 id="final-notes">Final&nbsp;Notes</h2>
+<p>After reviewing the code that handles the alert, I found&nbsp;this:</p>
+<pre><code class="lang-javascript"><span class="keyword">if</span>(closeWin==<span class="string">"1"</span>) self.close();
+</code></pre>
+<p>If <code>closeWin</code> is set to <code>1</code>, the tab will close. <span class="caps">WOW</span>. You have just fired your customer before they became your customer. You essentially threw away money.&nbsp;Bravo.</p>
+<p>Here’s the <a href="https://gist.github.com/Guamaso/11240273">whole script</a> I mined out of the site. It seems like it is a snippet grabbed from someone else, otherwise I wouldn’t use it without&nbsp;permission.</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <section class="about"><p>Wintersmith is made by <a href="http://johan-nordberg.com/">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
+<p>Juan was made by his parents and they’re somewhere back in California. Juan is now in North Carolina makes web things for a living. </p>
+<p>I enjoy tinkering and learning and making. I also probably like to overthink things which is what you’ll mostly find here.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2014 @Guamaso &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
