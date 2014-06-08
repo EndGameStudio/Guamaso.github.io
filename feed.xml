@@ -5,9 +5,70 @@
     <atom:link href="http://guamaso.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://guamaso.github.io/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Thu, 24 Apr 2014 15:00:00 -0400</pubDate>
+    <pubDate>Sun, 08 Jun 2014 13:20:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Learning Gulp, Wintersmith tasks</title>
+      <link>http://guamaso.github.io//articles/learning-gulp/</link>
+      <pubDate>Sun, 08 Jun 2014 13:20:00 -0400</pubDate>
+      <guid isPermaLink="true">http://guamaso.github.io//articles/learning-gulp/</guid>
+      <author></author>
+      <description>&lt;p&gt;I like command line but as a consumer of some products, I prefer a GUI. Automated tasks runners like Grunt and Gulp, in my opinion should have a GUI for consumers (read: developers). I’ve seen some early work and attempts but nothing very usable. So, here I am learning one of them because, through all my complaining, I &lt;em&gt;do&lt;/em&gt; need to learn them.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I like learning a new thing by implementing it in something I am already working on.  I figured automating some of my dev journal workflow made sense. Since Wintersmith doesn’t really &lt;em&gt;do&lt;/em&gt; drafts, I figured Gulp could help out a bit.  So, I worked out the tasks that I &lt;em&gt;think&lt;/em&gt; I need in order to make publish easier via Github Pages and Wintersmith.  &lt;/p&gt;
+&lt;p&gt;Not all the steps are required right now, like testing each published article for example.  In fact, some of these steps I’d like to wrap as a plugin. But that’s for later.&lt;/p&gt;
+&lt;p&gt;I started out with the following file structure:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dev_journal - root&lt;ul&gt;
+&lt;li&gt;articles - holds markdown articles&lt;ul&gt;
+&lt;li&gt;drafts&lt;/li&gt;
+&lt;li&gt;scheduled&lt;/li&gt;
+&lt;li&gt;published&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;github_pages - “production”&lt;/li&gt;
+&lt;li&gt;wintersmith - holds published articles and template&lt;ul&gt;
+&lt;li&gt;build&lt;/li&gt;
+&lt;li&gt;template&lt;/li&gt;
+&lt;li&gt;content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are three git repos, one for the root &lt;code&gt;articles&lt;/code&gt; folder, one for the &lt;code&gt;wintersmith\template&lt;/code&gt; folder, and one for the &lt;code&gt;github_pages&lt;/code&gt; folder.  I could probably consolidate these down to two, maybe even one repo but I’m doing this in baby steps. :)  All of the gulp and package files live in root.&lt;/p&gt;
+&lt;p&gt;The tasks are written out with every step I &lt;strong&gt;want&lt;/strong&gt; in my workflow. But I don’t have the time to learn and get all of it working so I’m focusing on the moving of files first. I will fine tune and improve as I go along.&lt;/p&gt;
+&lt;h2 id=&quot;gulp-task-process-drafts&quot;&gt;Gulp Task: Process Drafts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Grab all files from &lt;code&gt;articles/drafts&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Check spelling and grammar.  Do not continue processing file if errors exist but save a copy of it to &lt;code&gt;articles/drafts&lt;/code&gt; with spelling/grammar suggestions.&lt;/li&gt;
+&lt;li&gt;Check metadata of file. Wintersmith has the metadata header which has a few required fields. Do not continue processing file if errors exist.&lt;/li&gt;
+&lt;li&gt;Move remaining files to &lt;code&gt;articles/scheduled&lt;/code&gt; folder.  If the header is filled out then it’s ready to be published.&lt;/li&gt;
+&lt;li&gt;Commit changes to the &lt;code&gt;articles&lt;/code&gt; folder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gulp-task-process-scheduled-articles&quot;&gt;Gulp Task: Process Scheduled Articles&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Grab all files from &lt;code&gt;artciles/scheduled&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Spellcheck each file.  Create a copy of any file with errors. Move original and copy to &lt;code&gt;articles/drafts&lt;/code&gt; folder.&lt;/li&gt;
+&lt;li&gt;Create folders in &lt;code&gt;wintersmith/content/articles&lt;/code&gt; based on file names of each markdown file.&lt;/li&gt;
+&lt;li&gt;Copy each file into its respective folder.&lt;/li&gt;
+&lt;li&gt;Rename each file to “index.md”&lt;/li&gt;
+&lt;li&gt;Run wintersmith build, verify no errors.&lt;/li&gt;
+&lt;li&gt;Commit changes to the &lt;code&gt;articles&lt;/code&gt; folder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;gulp-task-publish-to-github-pages&quot;&gt;Gulp Task: Publish to Github Pages&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Clear github pages folder (except .git)&lt;/li&gt;
+&lt;li&gt;Copy wintersmith/build folder to github pages folder. &lt;/li&gt;
+&lt;li&gt;Commit changes to &lt;code&gt;github_pages&lt;/code&gt; repo.&lt;/li&gt;
+&lt;li&gt;Push changes to GitHub.&lt;/li&gt;
+&lt;li&gt;Wait a few moments (for github pages to update). Maybe this can be a separate task?&lt;/li&gt;
+&lt;li&gt;Check each article to make sure it exists at url and that content is correct.&lt;/li&gt;
+&lt;li&gt;Move scheduled files to the published folder, if they were indeed published.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     <item>
       <title>Blocking Right Click Is Just Bad</title>
       <link>http://guamaso.github.io//articles/right-click-blocking-is-bad/</link>
