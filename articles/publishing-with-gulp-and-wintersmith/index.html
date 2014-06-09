@@ -22,9 +22,10 @@
       <div class="content-wrap">
         <article class="article">
           <section class="content"><p>Unfortunately, I didn’t get all of my must-have items but I was able to get most of&nbsp;them.</p>
+<p>The Gulpfile does all of my bare minimum tasks except for one thing - committing and pushing to the github pages repository.  Since I have my versioning split into three different repos and the gulp-git module assumes that the location of the gulpfile <em>is</em> the repository home (I think…), it fails since I don’t have a repo&nbsp;there.</p>
+<p><span class="more"></span></p>
 <script src="https://gist.github.com/Guamaso/a8717f5085c0728f91c0.js"></script>
 
-<p>The Gulpfile does all of my bare minimum tasks except for one thing - committing and pushing to the github pages repository.  Since I have my versioning split into three different repos and the gulp-git module assumes that the location of the gulpfile <em>is</em> the repository home (I think…), it fails since I don’t have a repo&nbsp;there.</p>
 <p>I was hoping to change the current working directory to the actual repo folder but I’m not sure how or if this is&nbsp;possible.</p>
 <p>The <code>rename</code> module is a life savor for working with Wintersmith. Moving articles from my <code>articles</code> folder to the <code>wintersmith</code> folder was easier than I originally&nbsp;thought.</p>
 <p>The <code>run-Wintersmith</code> module was a bit tricky. I’m not certain why but npm was erroring out during install.  I added <code>wintersmith</code> as a dependency to my gulpfile and copied the <code>index.js</code> and <code>package.json</code> files manually to the incomplete folder within <code>node-modules</code>. It’s a hack but it works; I can successfully run <code>wintersmith.build()</code>.</p>

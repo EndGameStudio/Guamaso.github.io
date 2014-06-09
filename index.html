@@ -27,18 +27,9 @@
             <h2><a href="/articles/publishing-with-gulp-and-wintersmith/">Publishing Wintersmith with Gulp - Version 1</a></h2>
           </header>
           <section class="content"><p>Unfortunately, I didn’t get all of my must-have items but I was able to get most of&nbsp;them.</p>
-<script src="https://gist.github.com/Guamaso/a8717f5085c0728f91c0.js"></script>
-
 <p>The Gulpfile does all of my bare minimum tasks except for one thing - committing and pushing to the github pages repository.  Since I have my versioning split into three different repos and the gulp-git module assumes that the location of the gulpfile <em>is</em> the repository home (I think…), it fails since I don’t have a repo&nbsp;there.</p>
-<p>I was hoping to change the current working directory to the actual repo folder but I’m not sure how or if this is&nbsp;possible.</p>
-<p>The <code>rename</code> module is a life savor for working with Wintersmith. Moving articles from my <code>articles</code> folder to the <code>wintersmith</code> folder was easier than I originally&nbsp;thought.</p>
-<p>The <code>run-Wintersmith</code> module was a bit tricky. I’m not certain why but npm was erroring out during install.  I added <code>wintersmith</code> as a dependency to my gulpfile and copied the <code>index.js</code> and <code>package.json</code> files manually to the incomplete folder within <code>node-modules</code>. It’s a hack but it works; I can successfully run <code>wintersmith.build()</code>.</p>
-<p>The very next step is to get git working. Right after that is spell checking. Later on, I’d like to add better handling of the&nbsp;articles.  </p>
-<p>My <code>articles/published</code> folder should always win. In other words, the <code>wintersmith/content/articles</code> folder should match only what is in the published files and nothing more. During testing, a draft article snuck in my wintersmith folder even though it wasn’t in my published folder. This should be rare once I’m done testing but I’d still like to catch it instead of having a draft article get&nbsp;published.</p>
-<p>Until then, I am currently running git commands manually. This isn’t <em>that</em> big of a deal as my main purpose was to have an article structure that could be managed&nbsp;easily.  </p>
-<p>Wintersmith kind of kills me in that I can’t group articles in a folder. I wanted to have articles grouped by year, for example.  So, a blog post from 2013 would show up as <code>domain.com/2013/my-blog-post/</code>. If it can do this, I have not found how.  Wintersmith does not support drafts - which actually makes sense, I’m just surprised I haven’t seen many solutions for&nbsp;this.</p>
-<p>Either way, the script provides about 70% of what I set out to do, so I’d call this a solid and productive&nbsp;day.</p>
-
+<p>
+            <p class="more"><a href="/articles/publishing-with-gulp-and-wintersmith/">more</a></p>
           </section>
         </article>
         <article class="article intro">
@@ -57,11 +48,9 @@
             <h2><a href="/articles/weeknotes-2014-01/">Week Notes</a></h2>
           </header>
           <section class="content"><p><strong>Week Notes&nbsp;#1</strong></p>
-<p>Week notes are a great cross between journaling and blogging. The goal of keeping yourself accountable to the interwebz and, more importantly, yourself, is a good goal to shoot&nbsp;for.</p>
-<p>There is a lot to learn in the world of web development; always something new coming out.  I have a Trello board listing all the applications, frameworks, languages, and tools that I need to, at the very least, become familiar&nbsp;with.</p>
-<p>This week I focused on getting caught up with some other articles/posts as well as keeping up with work tasks. Not a whole lot of time spent on learning new things or practicing existing skills (outside of work,&nbsp;anyway).  </p>
-<p>We are switching over to Wakanda at work and I’m looking to see how I can use things like Grunt/Gulp, <span class="caps">SASS</span>, or CoffeeScript with it.  The application is fairly robust and flexible… ish.  I was able to get Foundation working with it some time ago, as well as Mustache.  I even used CoffeeScript for a module script I had to write.  I’m just not sure how to fit in these tools seemlessly with the built in server. It will probably require a custom&nbsp;plugin.</p>
+<p>Week notes are a great cross between journaling and blogging. The goal of keeping yourself accountable to the interwebz and, more importantly, yourself, is a good goal to shoot&nbsp;for.
 
+            <p class="more"><a href="/articles/weeknotes-2014-01/">more</a></p>
           </section>
         </article>
       </div>

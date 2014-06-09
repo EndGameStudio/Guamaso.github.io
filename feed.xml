@@ -15,9 +15,10 @@
       <guid isPermaLink="true">http://guamaso.github.io//articles/publishing-with-gulp-and-wintersmith/</guid>
       <author></author>
       <description>&lt;p&gt;Unfortunately, I didn’t get all of my must-have items but I was able to get most of them.&lt;/p&gt;
+&lt;p&gt;The Gulpfile does all of my bare minimum tasks except for one thing - committing and pushing to the github pages repository.  Since I have my versioning split into three different repos and the gulp-git module assumes that the location of the gulpfile &lt;em&gt;is&lt;/em&gt; the repository home (I think…), it fails since I don’t have a repo there.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;script src=&quot;https://gist.github.com/Guamaso/a8717f5085c0728f91c0.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;The Gulpfile does all of my bare minimum tasks except for one thing - committing and pushing to the github pages repository.  Since I have my versioning split into three different repos and the gulp-git module assumes that the location of the gulpfile &lt;em&gt;is&lt;/em&gt; the repository home (I think…), it fails since I don’t have a repo there.&lt;/p&gt;
 &lt;p&gt;I was hoping to change the current working directory to the actual repo folder but I’m not sure how or if this is possible.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;rename&lt;/code&gt; module is a life savor for working with Wintersmith. Moving articles from my &lt;code&gt;articles&lt;/code&gt; folder to the &lt;code&gt;wintersmith&lt;/code&gt; folder was easier than I originally thought.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;run-Wintersmith&lt;/code&gt; module was a bit tricky. I’m not certain why but npm was erroring out during install.  I added &lt;code&gt;wintersmith&lt;/code&gt; as a dependency to my gulpfile and copied the &lt;code&gt;index.js&lt;/code&gt; and &lt;code&gt;package.json&lt;/code&gt; files manually to the incomplete folder within &lt;code&gt;node-modules&lt;/code&gt;. It’s a hack but it works; I can successfully run &lt;code&gt;wintersmith.build()&lt;/code&gt;.&lt;/p&gt;
@@ -96,7 +97,8 @@
       <guid isPermaLink="true">http://guamaso.github.io//articles/weeknotes-2014-01/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;strong&gt;Week Notes #1&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Week notes are a great cross between journaling and blogging. The goal of keeping yourself accountable to the interwebz and, more importantly, yourself, is a good goal to shoot for.&lt;/p&gt;
+&lt;p&gt;Week notes are a great cross between journaling and blogging. The goal of keeping yourself accountable to the interwebz and, more importantly, yourself, is a good goal to shoot for.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;There is a lot to learn in the world of web development; always something new coming out.  I have a Trello board listing all the applications, frameworks, languages, and tools that I need to, at the very least, become familiar with.&lt;/p&gt;
 &lt;p&gt;This week I focused on getting caught up with some other articles/posts as well as keeping up with work tasks. Not a whole lot of time spent on learning new things or practicing existing skills (outside of work, anyway).  &lt;/p&gt;
 &lt;p&gt;We are switching over to Wakanda at work and I’m looking to see how I can use things like Grunt/Gulp, SASS, or CoffeeScript with it.  The application is fairly robust and flexible… ish.  I was able to get Foundation working with it some time ago, as well as Mustache.  I even used CoffeeScript for a module script I had to write.  I’m just not sure how to fit in these tools seemlessly with the built in server. It will probably require a custom plugin.&lt;/p&gt;
