@@ -377,6 +377,11 @@ code.lang-markdown .bullet {
   color: #8959a8;
 }
 
+.gist
+{
+  font-size: 0.8rem;
+}
+
 /* media queries */
 
 @media (min-width: 1600px) {
