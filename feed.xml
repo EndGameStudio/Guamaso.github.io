@@ -5,9 +5,24 @@
     <atom:link href="http://guamaso.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://guamaso.github.io/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Sun, 08 Jun 2014 20:31:00 -0400</pubDate>
+    <pubDate>Sat, 14 Jun 2014 15:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Week Notes</title>
+      <link>http://guamaso.github.io//articles/weeknotes-2014-02/</link>
+      <pubDate>Sat, 14 Jun 2014 15:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://guamaso.github.io//articles/weeknotes-2014-02/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;strong&gt;Week Two&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Worked with Gulp. Field Notes are awesome! Fiddled with Yeoman to install WordPress locally.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I like Gulp more than Grunt.&lt;/p&gt;
+&lt;p&gt;I enjoy playing with command line but I’m not a fan of using it heavily for certain tasks.  That aside, my biggest problem with Grunt is the unstandardized way that people can set configurations for tasks. Using a tilde or a dash and a specific keyword can modify a plugin in many ways. Sometimes these commands are document sometimes you have to look over their code. Again, I have no problem with sifting through code (when required) but documenting your product is an important part of deliverying the product.  Gulp’s m.o. is to focus on code over configuration. Loads easier to work with. In fact, I was able to create a script to process my entire publishing workflow with Wintersmith. It’s not a 100% but it will get there.&lt;/p&gt;
+&lt;p&gt;I use Field Notes for a lot of stuff. I’ve converted the wife even! From a design stand point, they are a lot of fun to collect and even more of a delight to use.  I am so excited to see a larger version come out in the limited edition Colors items.Ordered a few extras above what I already get from my subscription.&lt;/p&gt;
+&lt;p&gt;Yeoman is my next project. I am creating a quick app with WordPress and I’m looking for a quick way to get started. I was hoping Yeoman would be my one stop shop but it looks like I still need to do some extra work. Not too big of a deal if I learn how to use Yeoman better. Afterwards, I’d like to make my own generator.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Publishing Wintersmith with Gulp - Version 1</title>
       <link>http://guamaso.github.io//articles/publishing-with-gulp-and-wintersmith/</link>
