@@ -5,9 +5,22 @@
     <atom:link href="http://guamaso.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://guamaso.github.io/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Sat, 14 Jun 2014 15:00:00 -0400</pubDate>
+    <pubDate>Fri, 20 Jun 2014 15:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Week Notes 3</title>
+      <link>http://guamaso.github.io//articles/weeknotes-2014-03/</link>
+      <pubDate>Fri, 20 Jun 2014 15:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://guamaso.github.io//articles/weeknotes-2014-03/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;strong&gt;Week Notes #3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Wrestled with setting up WordPress locally to create a small temporary application.
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Last week, I installed WordPress locally using Yeoman, which was super easy. I like using PHP’s built in web server for testing and developing but something about my PHP installation didn’t seem to like the MySQL installation I had. Found out that I didn’t have the &lt;code&gt;PHP.ini&lt;/code&gt; file properly configured for use of MySQL. Updating that got me going with WordPress locally.  The next step is to use Gulp to automate the server startup and I’d like to backup the &lt;code&gt;wp-contents&lt;/code&gt; folder as well, either through a commit or through a copy/paste/rename action.&lt;/p&gt;
+&lt;p&gt;I love my job. I love my industry. Web application engineering is fun, intriguing, and exciting. Yet, there is &lt;em&gt;so&lt;/em&gt; much drama in our field. Lately, I’ve struggled with how to handle some big names in the field pushing their opinions or agenda. On the one hand, they are completely allowed their opinions. On the other hand, people don’t seem to think for themselves and will choose to follow anyone blindly.  I suppose this dynamic is part of the human condition, but it doesn’t make it any less painful to watch.  I bring this up only as a passing thought; it’s something I think that requires more discussion for a later post.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Week Notes 2</title>
       <link>http://guamaso.github.io//articles/weeknotes-2014-02/</link>
