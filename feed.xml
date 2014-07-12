@@ -5,9 +5,37 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Thu, 10 Jul 2014 14:30:00 -0400</pubDate>
+    <pubDate>Fri, 11 Jul 2014 20:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 6</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-06/</link>
+      <pubDate>Fri, 11 Jul 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-06/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 6: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;More Meetups&lt;/li&gt;
+&lt;li&gt;Publishing through Wintersmith with Gulp updated&lt;/li&gt;
+&lt;li&gt;A Github question/thought&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;more-meetups&quot;&gt;More Meetups&lt;/h2&gt;
+&lt;p&gt;I try to go to as many Meetups as I possibly can.  There are many in Durham for topics such as JavaScript and more. Unfortunately, those Meetups are a bit more difficult for me to make consistently.  &lt;a href=&quot;http://www.meetup.com/designcrop/&quot;&gt;Crop&lt;/a&gt;, &lt;a href=&quot;http://www.meetup.com/functionpink/&quot;&gt;Function Pink&lt;/a&gt;, &lt;a href=&quot;http://www.meetup.com/WebDesign2-0/&quot;&gt;Web Design&lt;/a&gt;, and (now) &lt;a href=&quot;http://www.meetup.com/Triangle-Code-for-America/&quot;&gt;Code for Cary&lt;/a&gt; I try my hardest to make, wherever they are held.  &lt;a href=&quot;http://www.meetup.com/Triangle-JavaScript/&quot;&gt;Triangle JavaScript&lt;/a&gt; is also a good one.&lt;/p&gt;
+&lt;p&gt;I am helping out the Code for Cary brigade which is fun.  I made a comment on my first Meetup with them that there aren’t enough “doing” Meetups, just lots of “conversation” or “presentation” Meetups - which is fine, but we definitely need more “doing” Meetups.  &lt;/p&gt;
+&lt;p&gt;The Web Design Meetup asked for presentations and I thought now would be a good time to put up.  I have learned a lot regarding Gulp and I figured doing a presentation is the next step in my progression.  So, I volunteered. I need to create a brief and send it to Pepper and hopefully she and her fellow organizers will like it.  In addition to the existing &lt;a href=&quot;http://dev.endgamestudio.com/articles/project-mind-dump/&quot;&gt;projects I wrote about&lt;/a&gt; the other day, I now have added a presentation to the list. Good times! No sarcasm there, I love this stuff!&lt;/p&gt;
+&lt;h2 id=&quot;publishing-through-wintersmith-with-gulp&quot;&gt;Publishing through Wintersmith with Gulp&lt;/h2&gt;
+&lt;p&gt;I updated the script after finally getting Aspell properly installed on my machine.  I’m not sure if I did something wrong during install (I don’t think I did) but the system path wasn’t updated with the Aspell &lt;code&gt;bin&lt;/code&gt; location.&lt;/p&gt;
+&lt;p&gt;With added spell checking support, I also improved the Gulpfile with better handling of articles as they move through my workflow.  I need to clean it up a bit and then update the &lt;a href=&quot;https://gist.github.com/Guamaso/a8717f5085c0728f91c0&quot;&gt;Gulpfile Gist&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’d also like to make a web interface for it that let’s me edit and process the spell check results in the browser.  Add that to the backlog, I suppose. &lt;/p&gt;
+&lt;h2 id=&quot;github-thought-question&quot;&gt;Github thought/question&lt;/h2&gt;
+&lt;p&gt;I work from either &lt;code&gt;master&lt;/code&gt; or from a branch I create (typically &lt;code&gt;dev&lt;/code&gt;). New versions or releases come as tags.  I don’t see the benefit to keeping versions in their own branch.  New work, fixes, or sandboxes: yes, but not old versions.  This is all raw thought; I haven’t done any research on this yet, so I could be wrong. Still, when I find a repo that uses this, I would expect the most recent version to be set to master, not some version in the middle.&lt;/p&gt;
+&lt;p&gt;I found a repo that I needed for work and I noticed that the master branch seemed odd.  The structure didn’t match what I was using in their commercial product.  I submitted an issue without looking through their branches. If I had, I would have found that the stuff I was looking for was in a branch.  I feel like there should have been a &lt;code&gt;readme.md&lt;/code&gt; file to explain their structure and the product itself. I admit, I should have looked through the branches first.  I still think it’s a weird way to structure a repo but it is on me to look before I leap. Lesson learned.&lt;/p&gt;
+&lt;p&gt;Lastly, this same repo’s owner left a comment on a prior issue that the project’s bug tracker was elsewhere.  Yet, Github’s issue tracker was on. It just makes me feel like they put stuff on Github to attract attention to the product - which is perfectly fine, but if this is the business plan, ya’ gotta commit 100% (no pun intended). People should create a mental model quickly and with little effort.&lt;/p&gt;
+&lt;p&gt;I could be wrong on all of this but I doubt I am wrong on everything… just some of it. :)&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Project Mind Dump</title>
       <link>http://dev.endgamestudio.com//articles/project-mind-dump/</link>

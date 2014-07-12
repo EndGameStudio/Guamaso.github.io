@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Weeknotes 6 - Juan's Dev Journal
+    </title>
+    <link rel="alternate" href="http://dev.endgamestudio.com//feed.xml" type="application/rss+xml" title="Dev journal, snippets, and rants.">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Weeknotes 6</h1>
+        <p class="author">Written by <span class="author"><a href="mailto:juanthedesigner@gmail.com">Juan Orozco</a></span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>Week&nbsp;6: </p>
+<ul>
+<li>More&nbsp;Meetups</li>
+<li>Publishing through Wintersmith with Gulp&nbsp;updated</li>
+<li>A Github&nbsp;question/thought</li>
+</ul>
+<p><span class="more"></span></p>
+<h2 id="more-meetups">More&nbsp;Meetups</h2>
+<p>I try to go to as many Meetups as I possibly can.  There are many in Durham for topics such as JavaScript and more. Unfortunately, those Meetups are a bit more difficult for me to make consistently.  <a href="http://www.meetup.com/designcrop/">Crop</a>, <a href="http://www.meetup.com/functionpink/">Function Pink</a>, <a href="http://www.meetup.com/WebDesign2-0/">Web Design</a>, and (now) <a href="http://www.meetup.com/Triangle-Code-for-America/">Code for Cary</a> I try my hardest to make, wherever they are held.  <a href="http://www.meetup.com/Triangle-JavaScript/">Triangle JavaScript</a> is also a good&nbsp;one.</p>
+<p>I am helping out the Code for Cary brigade which is fun.  I made a comment on my first Meetup with them that there aren’t enough “doing” Meetups, just lots of “conversation” or “presentation” Meetups - which is fine, but we definitely need more “doing”&nbsp;Meetups.  </p>
+<p>The Web Design Meetup asked for presentations and I thought now would be a good time to put up.  I have learned a lot regarding Gulp and I figured doing a presentation is the next step in my progression.  So, I volunteered. I need to create a brief and send it to Pepper and hopefully she and her fellow organizers will like it.  In addition to the existing <a href="/articles/project-mind-dump/">projects I wrote about</a> the other day, I now have added a presentation to the list. Good times! No sarcasm there, I love this&nbsp;stuff!</p>
+<h2 id="publishing-through-wintersmith-with-gulp">Publishing through Wintersmith with&nbsp;Gulp</h2>
+<p>I updated the script after finally getting Aspell properly installed on my machine.  I’m not sure if I did something wrong during install (I don’t think I did) but the system path wasn’t updated with the Aspell <code>bin</code> location.</p>
+<p>With added spell checking support, I also improved the Gulpfile with better handling of articles as they move through my workflow.  I need to clean it up a bit and then update the <a href="https://gist.github.com/Guamaso/a8717f5085c0728f91c0">Gulpfile Gist</a>.</p>
+<p>I’d also like to make a web interface for it that let’s me edit and process the spell check results in the browser.  Add that to the backlog, I&nbsp;suppose. </p>
+<h2 id="github-thought-question">Github&nbsp;thought/question</h2>
+<p>I work from either <code>master</code> or from a branch I create (typically <code>dev</code>). New versions or releases come as tags.  I don’t see the benefit to keeping versions in their own branch.  New work, fixes, or sandboxes: yes, but not old versions.  This is all raw thought; I haven’t done any research on this yet, so I could be wrong. Still, when I find a repo that uses this, I would expect the most recent version to be set to master, not some version in the&nbsp;middle.</p>
+<p>I found a repo that I needed for work and I noticed that the master branch seemed odd.  The structure didn’t match what I was using in their commercial product.  I submitted an issue without looking through their branches. If I had, I would have found that the stuff I was looking for was in a branch.  I feel like there should have been a <code>readme.md</code> file to explain their structure and the product itself. I admit, I should have looked through the branches first.  I still think it’s a weird way to structure a repo but it is on me to look before I leap. Lesson&nbsp;learned.</p>
+<p>Lastly, this same repo’s owner left a comment on a prior issue that the project’s bug tracker was elsewhere.  Yet, Github’s issue tracker was on. It just makes me feel like they put stuff on Github to attract attention to the product - which is perfectly fine, but if this is the business plan, ya’ gotta commit 100% (no pun intended). People should create a mental model quickly and with little&nbsp;effort.</p>
+<p>I could be wrong on all of this but I doubt I am wrong on everything… just some of it.&nbsp;:)</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <section class="about"><p>Wintersmith is made by <a href="http://johan-nordberg.com/">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
+<p>Juan was made by his parents and they’re somewhere back in California. Juan is now in North Carolina makes web things for a living. </p>
+<p>I enjoy tinkering and learning and making. I also probably like to overthink things which is what you’ll mostly find here.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2014 @Guamaso &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
