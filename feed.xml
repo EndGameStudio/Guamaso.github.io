@@ -5,9 +5,37 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 11 Jul 2014 20:00:00 -0400</pubDate>
+    <pubDate>Fri, 18 Jul 2014 20:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 7</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-07/</link>
+      <pubDate>Fri, 18 Jul 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-07/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 5: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Wakanda Training&lt;/li&gt;
+&lt;li&gt;Gulp and Grunt Talk Brief&lt;/li&gt;
+&lt;li&gt;Fiddling with Firebase&lt;/li&gt;
+&lt;li&gt;Signed up for Digital Ocean&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;wakanda-training&quot;&gt;Wakanda Training&lt;/h2&gt;
+&lt;p&gt;At the beginning of the week, I attended a two day training at work on &lt;a href=&quot;http://www.wakanda.org/&quot;&gt;Wakanda&lt;/a&gt;.  The two days reminded me of what they say about Calculus: &lt;em&gt;it’s like 90% Algebra&lt;/em&gt;.  Wakanda training (Wakanda being based on a JavaScript stack) was 90% JavaScript.  It was a good refresh for myself and a very good one-oh-one-esque course for some of our “desktop” developers. &lt;/p&gt;
+&lt;p&gt;Sidebar: are they called “desktop” developers? I’ve heard them being referred to as “system language” developers. My point is, they are not web developers by trade.  Writing code for the web can be very different.  Throw in HTML markup and CSS styling and web applications get even tougher.&lt;/p&gt;
+&lt;p&gt;Anyway, the training was good. It was also good to hang out with the team for a while in RL.&lt;/p&gt;
+&lt;h2 id=&quot;gulp-and-grunt-meetup-talk-brief&quot;&gt;Gulp and Grunt Meetup Talk Brief&lt;/h2&gt;
+&lt;p&gt;I wrote up the brief, created my main bullet points and started working on the deck itself.  I’m excited but I’m also very nervous. This is an interesting experiment - I don’t do public speaking.  The Dev Journal’s goal was to improve how I learn.  Having to publicize my thoughts forces me to think deeper about what I’m going to say. Doing a public speaking event, even something as humble as a local meetup, seems to be having the same effect but in multiples.&lt;/p&gt;
+&lt;p&gt;I submitted the brief and received a positive note. I’m waiting for the Meetup page to get updated before I put my nose to the grindstone on the presentation.&lt;/p&gt;
+&lt;h2 id=&quot;fiddling-with-firebase&quot;&gt;Fiddling with Firebase&lt;/h2&gt;
+&lt;p&gt;I updated the code that feeds a random haiku on my home page. I’m trying to make it so I can link to specific haiku’s I write.  Learning a lot about refactoring and how fun it is to shoot yourself in the foot. :&amp;lt;&lt;/p&gt;
+&lt;h2 id=&quot;signed-up-for-digital-ocean&quot;&gt;Signed up for Digital Ocean&lt;/h2&gt;
+&lt;p&gt;I have a web server that runs WordPress but I am not a fan of cPanel. It seems that I have come to prefer command line and direct access to the server. I heard about Digital Ocean from the Wakanda training and immediately purchased a droplet.  For five dollars, I am able to purchase a virtual server with not-so-bad specs.  Once the shared web server is up, I will bump up the specs in order to host WordPress &lt;em&gt;and&lt;/em&gt; a couple of Ghost instances.&lt;/p&gt;
+&lt;p&gt;I’m writing up a list of what I did to get going with a droplet. I had about 2 days, cumulative, experience with running Linux through command line. There is a lot to write about from my experience. :)&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 6</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-06/</link>
