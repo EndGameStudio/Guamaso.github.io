@@ -5,9 +5,29 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 25 Jul 2014 10:01:00 -0400</pubDate>
+    <pubDate>Fri, 25 Jul 2014 10:24:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 8</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-08/</link>
+      <pubDate>Fri, 25 Jul 2014 10:24:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-08/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 8&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Created Wakanda data import tool&lt;/li&gt;
+&lt;li&gt;Started work on Gulp/Grunt talk&lt;/li&gt;
+&lt;li&gt;Set up Ember environment with Yeoman&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;created-wakanda-data-import-tool&quot;&gt;Created Wakanda data import tool&lt;/h2&gt;
+&lt;p&gt;I couldn’t find a way to easily import data from one server to another that was required by parts of the application. &lt;a href=&quot;http://dev.endgamestudio.com/Wakanda-Import-Concept/&quot;&gt;I created a datastore class method&lt;/a&gt; the read a JSON file and import any missing records.  It’s a great first step for our team if we decide to continue using Wakanda local datastores (versus remote datastores).  I think that these local datastores are great, faster, less cumbersome, and more powerful. But that’s not my call. :(&lt;/p&gt;
+&lt;h2 id=&quot;started-gulp-grunt-talk&quot;&gt;Started Gulp/Grunt talk&lt;/h2&gt;
+&lt;p&gt;Finished my outline and now in the process of adding more and more detail. Still nothing to link to yet which is good. I feel that it’s not a &lt;em&gt;thing&lt;/em&gt; until there is a link which keeps my nerves in check.&lt;/p&gt;
+&lt;h2 id=&quot;set-up-ember-environment-with-yeoman&quot;&gt;Set up Ember environment with Yeoman&lt;/h2&gt;
+&lt;p&gt;I freak out at the shear amount of &lt;em&gt;stuff&lt;/em&gt; Yeoman loads in a folder after it is done running a generator. The Grunt file alone is insane. Once I looked through it, though, it made sense. The same goes for the rest of the objects in the project folder. Anyway, I loaded up an Ember generator to use EmberFire on it.  Get to fiddle with that tonight actually.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Wakanda Data Import</title>
       <link>http://dev.endgamestudio.com//articles/Wakanda-Import-Concept/</link>
