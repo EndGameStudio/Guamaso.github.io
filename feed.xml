@@ -5,9 +5,24 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 18 Jul 2014 20:00:00 -0400</pubDate>
+    <pubDate>Fri, 25 Jul 2014 10:01:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Wakanda Data Import</title>
+      <link>http://dev.endgamestudio.com//articles/Wakanda-Import-Concept/</link>
+      <pubDate>Fri, 25 Jul 2014 10:01:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/Wakanda-Import-Concept/</guid>
+      <author></author>
+      <description>&lt;h1 id=&quot;wakanda-data-import-tool&quot;&gt;Wakanda Data Import Tool&lt;/h1&gt;
+&lt;p&gt;When new data is created to support the application, not user data, we need a way to update servers down the deployment chain.  With SQL, this was easy… ish. A versioned query that was part of the deployment handled the task.  With Wakanda, we could do the same thing. &lt;em&gt;OR&lt;/em&gt; we could take a step higher.&lt;/p&gt;
+&lt;p&gt;I was tasked with creating a bare bones rights engine for our app. In it, I had to display error messages to the user. I don’t like hardcoding messages, I prefer to let the client edit them whenever possible.  I created the solution for this but then ran into a problem syncing data across development and test servers - which meant we were going to run into a problem syncing the data to production… once we reached that point.&lt;/p&gt;
+&lt;p&gt;So, I created a &lt;a href=&quot;http://doc.wakanda.org/Datastore-Model-Designer/Datastore-Class-Methods.300-473312.en.html&quot;&gt;Datastore class method&lt;/a&gt; that checked for a JSON file and imported any required data into the target datastore. It worked great. A couple of issues did come up like exposing the method to the client and abstracting the schema of the table from the import process. &lt;/p&gt;
+&lt;p&gt;Having the method exposed to the client is dangerous for many reasons, most importantly being that our team is still new to Wakanda, which is also still in its infancy.  The solution is to be able to call the method from the server itself. Or easily disable the method once the app is in “production” mode.&lt;/p&gt;
+&lt;p&gt;The schema part I’m still debating on how to handle. I can include the schema in the import file. I could verify the schema based on the key/value pairs in the data itself.  The main task is complete and was approved so the next time I have to do something similar, I’ll go in and clean it up.&lt;/p&gt;
+&lt;script src=&quot;https://gist.github.com/Guamaso/7d80034a24f50eaee1bf.js&quot;&gt;&lt;/script&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 7</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-07/</link>

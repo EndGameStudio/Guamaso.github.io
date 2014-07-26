@@ -4,28 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>Juan's Dev Journal
+    <title>Wakanda Data Import - Juan's Dev Journal
     </title>
     <link rel="alternate" href="http://dev.endgamestudio.com//feed.xml" type="application/rss+xml" title="Dev journal, snippets, and rants.">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
     <link rel="stylesheet" href="/css/main.css">
   </head>
-  <body>
+  <body class="article-detail">
     <header class="header">
       <div class="content-wrap">
-        <div class="logo">
-          <h1><a href="http://dev.endgamestudio.com/">Juan's Dev Journal</a></h1>
-          <p class="description">Dev journal, snippets, and rants.</p>
-        </div>
+        <h1>Wakanda Data Import</h1>
+        <p class="author">Written by <span class="author"><a href="mailto:juanthedesigner@gmail.com">Juan Orozco</a></span>
+        </p>
       </div>
     </header>
     <div id="content">
       <div class="content-wrap">
-        <article class="article intro">
-          <header>
-            <p class="date"><span>25. July 2014</span></p>
-            <h2><a href="/articles/Wakanda-Import-Concept/">Wakanda Data Import</a></h2>
-          </header>
+        <article class="article">
           <section class="content"><h1 id="wakanda-data-import-tool">Wakanda Data Import&nbsp;Tool</h1>
 <p>When new data is created to support the application, not user data, we need a way to update servers down the deployment chain.  With <span class="caps">SQL</span>, this was easy… ish. A versioned query that was part of the deployment handled the task.  With Wakanda, we could do the same thing. <em><span class="caps">OR</span></em> we could take a step&nbsp;higher.</p>
 <p>I was tasked with creating a bare bones rights engine for our app. In it, I had to display error messages to the user. I don’t like hardcoding messages, I prefer to let the client edit them whenever possible.  I created the solution for this but then ran into a problem syncing data across development and test servers - which meant we were going to run into a problem syncing the data to production… once we reached that&nbsp;point.</p>
@@ -33,46 +28,13 @@
 <p>Having the method exposed to the client is dangerous for many reasons, most importantly being that our team is still new to Wakanda, which is also still in its infancy.  The solution is to be able to call the method from the server itself. Or easily disable the method once the app is in “production”&nbsp;mode.</p>
 <p>The schema part I’m still debating on how to handle. I can include the schema in the import file. I could verify the schema based on the key/value pairs in the data itself.  The main task is complete and was approved so the next time I have to do something similar, I’ll go in and clean it&nbsp;up.</p>
 <script src="https://gist.github.com/Guamaso/7d80034a24f50eaee1bf.js"></script>
-
-          </section>
-        </article>
-        <article class="article intro">
-          <header>
-            <p class="date"><span>19. July 2014</span></p>
-            <h2><a href="/articles/weeknotes-2014-07/">Weeknotes 7</a></h2>
-          </header>
-          <section class="content"><p>Week&nbsp;5: </p>
-<ul>
-<li>Wakanda&nbsp;Training</li>
-<li>Gulp and Grunt Talk&nbsp;Brief</li>
-<li>Fiddling with&nbsp;Firebase</li>
-<li>Signed up for Digital&nbsp;Ocean</li>
-</ul>
-<p>
-            <p class="more"><a href="/articles/weeknotes-2014-07/">more</a></p>
-          </section>
-        </article>
-        <article class="article intro">
-          <header>
-            <p class="date"><span>12. July 2014</span></p>
-            <h2><a href="/articles/weeknotes-2014-06/">Weeknotes 6</a></h2>
-          </header>
-          <section class="content"><p>Week&nbsp;6: </p>
-<ul>
-<li>More&nbsp;Meetups</li>
-<li>Publishing through Wintersmith with Gulp&nbsp;updated</li>
-<li>A Github&nbsp;question/thought</li>
-</ul>
-<p>
-            <p class="more"><a href="/articles/weeknotes-2014-06/">more</a></p>
-          </section>
+</section>
         </article>
       </div>
     </div>
     <footer>
       <div class="content-wrap">
-        <div class="nav"><a href="/archive.html">« Archives</a><a href="/page/2/">Next page »</a>
-        </div>
+        <div class="nav"><a href="/">« Full blog</a></div>
         <section class="about"><p>Juan Orozco is a web applications engineer living in Raleigh NC. Although he prefers front end development, he is a generalist and really just loves to solve problems.</p>
 <p>By day, he is a full stack developer building and supporting a software as a service application. By night, he is a tinkerer and explorer, leveling up his skills in web engineering, interface design, and digital anthropology.</p>
 <p>The Dev Journal is powered by Wintersmith, Gulp and Github Pages. Wintersmith is made by <a href="http://johan-nordberg.com/">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
