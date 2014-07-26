@@ -20,6 +20,7 @@
 &lt;li&gt;Started work on Gulp/Grunt talk&lt;/li&gt;
 &lt;li&gt;Set up Ember environment with Yeoman&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;created-wakanda-data-import-tool&quot;&gt;Created Wakanda data import tool&lt;/h2&gt;
 &lt;p&gt;I couldn’t find a way to easily import data from one server to another that was required by parts of the application. &lt;a href=&quot;http://dev.endgamestudio.com/Wakanda-Import-Concept/&quot;&gt;I created a datastore class method&lt;/a&gt; the read a JSON file and import any missing records.  It’s a great first step for our team if we decide to continue using Wakanda local datastores (versus remote datastores).  I think that these local datastores are great, faster, less cumbersome, and more powerful. But that’s not my call. :(&lt;/p&gt;
 &lt;h2 id=&quot;started-gulp-grunt-talk&quot;&gt;Started Gulp/Grunt talk&lt;/h2&gt;
@@ -36,6 +37,7 @@
       <author></author>
       <description>&lt;h1 id=&quot;wakanda-data-import-tool&quot;&gt;Wakanda Data Import Tool&lt;/h1&gt;
 &lt;p&gt;When new data is created to support the application, not user data, we need a way to update servers down the deployment chain.  With SQL, this was easy… ish. A versioned query that was part of the deployment handled the task.  With Wakanda, we could do the same thing. &lt;em&gt;OR&lt;/em&gt; we could take a step higher.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I was tasked with creating a bare bones rights engine for our app. In it, I had to display error messages to the user. I don’t like hardcoding messages, I prefer to let the client edit them whenever possible.  I created the solution for this but then ran into a problem syncing data across development and test servers - which meant we were going to run into a problem syncing the data to production… once we reached that point.&lt;/p&gt;
 &lt;p&gt;So, I created a &lt;a href=&quot;http://doc.wakanda.org/Datastore-Model-Designer/Datastore-Class-Methods.300-473312.en.html&quot;&gt;Datastore class method&lt;/a&gt; that checked for a JSON file and imported any required data into the target datastore. It worked great. A couple of issues did come up like exposing the method to the client and abstracting the schema of the table from the import process. &lt;/p&gt;
 &lt;p&gt;Having the method exposed to the client is dangerous for many reasons, most importantly being that our team is still new to Wakanda, which is also still in its infancy.  The solution is to be able to call the method from the server itself. Or easily disable the method once the app is in “production” mode.&lt;/p&gt;
