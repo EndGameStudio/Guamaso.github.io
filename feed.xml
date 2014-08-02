@@ -5,9 +5,33 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 25 Jul 2014 10:24:00 -0400</pubDate>
+    <pubDate>Fri, 01  Aug 2014 10:24:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 9</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-09/</link>
+      <pubDate>Fri, 01  Aug 2014 10:24:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-09/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 9&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Grunt/Gulp Talk is a go&lt;/li&gt;
+&lt;li&gt;Installed Ubuntu server on old netbook&lt;/li&gt;
+&lt;li&gt;Playing with Yo API&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;grunt-gulp-talk-is-a-go&quot;&gt;Grunt/Gulp Talk is a go&lt;/h2&gt;
+&lt;p&gt;I’m struggling with what my actual goal is. In researching the topic, I realized it is actually fairly easy to learn how to use both Gulp and Grunt. The problem is first understanding the concepts of tasks and NPM and dependencies.  The other problem I feel web craftsfolk face is trying to stay in sync with the available toolset without losing momentum in other things like life etc.&lt;/p&gt;
+&lt;p&gt;I have two choices then. Take this talk with the literal “Gulp and Grunt” description and just discuss the differences. Or, I can use this as a vehicle to show how important it is to take that first step.&lt;/p&gt;
+&lt;p&gt;I suppose I could do both. :D&lt;/p&gt;
+&lt;h2 id=&quot;installed-ubuntu-server-on-old-netbook&quot;&gt;Installed Ubuntu server on old netbook&lt;/h2&gt;
+&lt;p&gt;This has been on the back burner for a while. I have wanted a portable web server for a while now. My netbook isn’t used for much these days except as a print server.  After bringing up a server through Digital Ocean, I realized I could have done the netbook first as a learning experience.  Oh well.&lt;/p&gt;
+&lt;p&gt;I didn’t expect to have so much fun with this.  That feeling when something works, almost like the atypical comic book regular person discovering they have a super power that can help the world.  I can use it to test APIs, work as a staging server, or serve local pages for home stuff. In order to do this, though, I am saying that it is no longer a computer; it is strictly my server.&lt;/p&gt;
+&lt;h2 id=&quot;playing-with-yo-api&quot;&gt;Playing with Yo API&lt;/h2&gt;
+&lt;p&gt;One of the tests I used while playing with the web server was playing with the Yo API. There’s not much to it but I thought I could use it on the web server to check my main server and “Yo” me when the main server is out.  I thought it would be fun to publicize a Yo address that updated a website with people that have Yo’d that address. The point is, it’s a toy.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 8</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-08/</link>
@@ -51,7 +75,7 @@
       <pubDate>Fri, 18 Jul 2014 20:00:00 -0400</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-07/</guid>
       <author></author>
-      <description>&lt;p&gt;Week 5: &lt;/p&gt;
+      <description>&lt;p&gt;Week 7: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Wakanda Training&lt;/li&gt;
 &lt;li&gt;Gulp and Grunt Talk Brief&lt;/li&gt;
