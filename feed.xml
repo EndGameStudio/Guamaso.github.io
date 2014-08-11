@@ -5,9 +5,35 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 01  Aug 2014 10:24:00 -0400</pubDate>
+    <pubDate>Sun, 10  Aug 2014 08:24:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 10</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-10/</link>
+      <pubDate>Sun, 10  Aug 2014 08:24:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-10/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 10&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Missed my Friday deadline&lt;/li&gt;
+&lt;li&gt;Grunt/Gulp Talk&lt;/li&gt;
+&lt;li&gt;Meditation and rest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;missed-my-friday-deadline&quot;&gt;Missed my Friday deadline&lt;/h2&gt;
+&lt;p&gt;I like to have these written by Friday night, just as a personal goal. I’m a little stressed out on my first talk next week, but I’ll get to that.  I feel like it’s ok to miss deadlines from time to time, provided that it isn’t a common occurrence. The problem, I think, we run into when we’re late on something is trying to get caught up.  We’re so busy that falling behind on one thing puts everything else behind as well. That’s why it’s important to build a buffer or… wait for it… a graceful fallback! :D&lt;/p&gt;
+&lt;p&gt;At work, we have periodic “non-sprints” where we aren’t in a sprint and aren’t expected to complete story points.  We can work the backlog or do some research on backlog items.  I’m no agile expert, so I don’t know how close this follows the agile method or if the terms are correct. Anyway, I think that in anything we do, it’s important to be able to do one of two things (or both, really): claim to do bankruptcy or have a non-work week.  I’m not behind on my personal projects… or work projects for that matter, but being late for my weeknotes made me think about it.&lt;/p&gt;
+&lt;h2 id=&quot;grunt-gulp-talk&quot;&gt;Grunt/Gulp Talk&lt;/h2&gt;
+&lt;p&gt;I’m practicing my talk for this Tuesday the 12th.  I’m psyched. I’m nervous. I want to get back to Code for Cary so I’m excited for two reasons. Being able to share my thoughts on Gulp/Grunt/automation, but also be able to redirect my attention to other things. Being my first talk, I’ve given this &lt;em&gt;a lot&lt;/em&gt; of attention. I’m not complaining, it’s just the fact of the past few weeks. Anyway, I’m planning on throwing the talk and all my materials, including articles I researched for the talk, on github.&lt;/p&gt;
+&lt;h2 id=&quot;meditation-and-rest&quot;&gt;Meditation and rest&lt;/h2&gt;
+&lt;p&gt;Along with being able to take a non-work work week or being able to claim task bankruptcy, it’s also important to have complete non-work time.  Along with doing mind dumps, I have started doing meditation and introspection time.  Straight up sleep is still a work in progress but it’s high priority.&lt;/p&gt;
+&lt;p&gt;I learned meditation in an Aikido class I took a long time ago and I liked the peace and tranquility I got from it. It’s a struggle trying to keep your mind clear, but it’s a good healthy struggle.  Keeping balance in your mind is like a muscle that one needs to exercise in order for it to work efficiently.&lt;/p&gt;
+&lt;p&gt;Once my mind is clear (ish… I still can’t really achieve complete calmness), I will do a mind dump.  I just write down every thought that comes back. Some thoughts are “to dos”, some are ideas, and some are personal introspections.  It’s these personal thoughts that I am going for. Understanding why I think things or why I have problems in certain parts of my life are very important to self improvement. &lt;/p&gt;
+&lt;p&gt;What does this have to do with software? Software engineering is problem solving. Problem solving is a muscle, too.  It requires higher reasoning and a balanced mind, in my opinion, which some people have inherently, or, like me, have to work hard at it.  I found that meditation and introspection help improve your ability to focus and problem solve.&lt;/p&gt;
+&lt;p&gt;It also makes you feel better. :)&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 9</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-09/</link>
