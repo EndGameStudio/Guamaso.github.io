@@ -5,9 +5,32 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Sun, 10  Aug 2014 08:24:00 -0400</pubDate>
+    <pubDate>Sat, 16  Aug 2014 08:24:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 11</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-11/</link>
+      <pubDate>Sat, 16  Aug 2014 08:24:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-11/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 11&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Grunt/Gulp Talk&lt;/li&gt;
+&lt;li&gt;Consolidated sites to Digital Ocean&lt;/li&gt;
+&lt;li&gt;Explored Laddr&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;grunt-gulp-talk&quot;&gt;Grunt/Gulp Talk&lt;/h2&gt;
+&lt;p&gt;I did my talk. If I measured the success of a talk in that I didn’t run out in fear and didn’t get “boo’d” off the “stage”… then I succeeded!  It was hard for me to gage if the audience understood the concepts I was trying to present.  A lot of people did, I got this just from talking with them. Some, people, I could see, were struggling.  I take that as a personal failing and it inspired me to write a After Action Review. I’ll post that up later today.&lt;/p&gt;
+&lt;h2 id=&quot;consolidated-sites-to-digital-ocean&quot;&gt;Consolidated sites to Digital Ocean&lt;/h2&gt;
+&lt;p&gt;Digital Ocean doesn’t have redundancies and, so far, they seem to have issues more often than not. It is marketed as a developer VPS solution, which, to me, says stability is not to be expected. And you know what? That’s ok. It’s good enough and it is insanely cheap.  The sites that I put on there aren’t popular even by any definition, so if they go down even for a few hours here and there, it should be fine.  If they grow in popularity (ha! Right…) then it will make more sense to move them over to something else. Maybe AWS or A Small Orange (they have a similar plan at $20 but with redundant hardware, for example).&lt;/p&gt;
+&lt;p&gt;Digital Ocean has a ton of great guides for installing all sorts of things. Ghost 0.5 was just released so they are missing the updated version number, but the process is the same. I learned how to have multiple Ghost instances running under one NginX server and how to configure them all as services. I &lt;em&gt;love&lt;/em&gt; their “droplet” interface as well. Even with having to use command line for the server itself, their interface is so much easier to use then cPanel (I was told that you can install a GUI and use that to admin the server, but I’m starting to like command line!). Here’s a &lt;a href=&quot;https://www.digitalocean.com/?refcode=ef003a64b58d&quot;&gt;referral sign up link&lt;/a&gt; if you’re interested, which you should be. :)&lt;/p&gt;
+&lt;h2 id=&quot;explored-laddr&quot;&gt;Explored Laddr&lt;/h2&gt;
+&lt;p&gt;Laddr is nifty PHP app that helps Code for America Brigades keep track of their projects, conversations, and other stuff. It was created as a Code for America project (I think?) in Philadelphia.  As I said before, I’m helping out with the Cary Brigade and the first area I’m helping out with is the front end to the Brigade’s website.  Laddr is commonly placed on the root domain for many Brigades. We’re not set up for that now but we might in the near future.&lt;/p&gt;
+&lt;p&gt;I’m curious how Laddr and Github will mesh as far as communication on bugs and features.  The administration page is nifty. I can edit the PHP templating and other code easily through this back end page. I’ll get to really dig in this weekend and I’m super exited.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 10</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-10/</link>
