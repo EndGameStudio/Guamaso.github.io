@@ -5,9 +5,83 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Sat, 16  Aug 2014 08:24:00 -0400</pubDate>
+    <pubDate>Sat, 16  Aug 2014 20:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>First Meetup Presentation</title>
+      <link>http://dev.endgamestudio.com//articles/Meetup-talk-aar/</link>
+      <pubDate>Sat, 16  Aug 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/Meetup-talk-aar/</guid>
+      <author></author>
+      <description>&lt;h1 id=&quot;first-meetup-presentation-after-action-review&quot;&gt;First Meetup Presentation After Action Review&lt;/h1&gt;
+&lt;p&gt;I first heard of an AAR ((After Action Review)[&lt;a href=&quot;http://en.wikipedia.org/wiki/After-action_review&quot;&gt;http://en.wikipedia.org/wiki/After-action_review&lt;/a&gt;]) from my wife while she was in the Army. Years later, I joined a team that used the Agile method and became accustomed to sprint retrospectives.  I like the retrospective concept as a method of reviewing the self and the team.&lt;/p&gt;
+&lt;p&gt;I’ve said before that this journal’s purpose is partially to help me improve and learn. I meet a lot of people that are afraid to voice their thoughts for fear of being wrong and coming off as a fool. I am one such person. But I never feel that people expressing their thoughts, no matter how raw that thought is, that they themselves are fools. It takes strength and courage to put yourself out there.&lt;/p&gt;
+&lt;p&gt;In these situations, though, one needs to look critically at one’s performance and be brutally honest in order to improve.  I hesitated for a moment about putting my thoughts on the Meetup, I’m pretty embarrassed about my performance.  I then remembered the spiel I give to many people about learning web design and development, failure is growth! I immediately decided that I need to be candid about my feelings, thoughts, and decisions regarding my presentation.&lt;/p&gt;
+&lt;p&gt;I am using the format I found on Wikipedia for AAR. They use slightly better verbiage than I would have used. :) &lt;/p&gt;
+&lt;h2 id=&quot;grunt-gulp-meetup-aar&quot;&gt;Grunt/Gulp Meetup AAR&lt;/h2&gt;
+&lt;p&gt;Ok. Here we go… :D  Most of these are my own opinions, many people said it was good (which was very kind of them to say, but I think they were being TOO kind. Thanks to all who said so, though. I &lt;em&gt;really&lt;/em&gt; appreciate the kindness!).  I could be off on some of this stuff… but I really doubt it. ;)&lt;/p&gt;
+&lt;h3 id=&quot;what-was-supposed-to-happen&quot;&gt;What was supposed to happen&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I had slides with examples and some step-by-step processes for learning and using Grunt and Gulp.  I was supposed to run through the slides, use my notes for help (if needed), and run through the examples in between some of the slides.&lt;/li&gt;
+&lt;li&gt;The slides and my speech would help guide attendees attention from one concept to the next. With each slide, we were to build on the previous concept, ultimately working up to an automation task using Gulp and Grunt.&lt;/li&gt;
+&lt;li&gt;On some slides, I had queues that would tell me when to flip over to command line or Sublime (text editor) to go over the examples.&lt;/li&gt;
+&lt;li&gt;At the end of the slides, I would go over any more examples and questions the audience had.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;what-happened&quot;&gt;What happened&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I set up the PC to display in extended mode. The slideshow on the project and my notes on my screen.&lt;/li&gt;
+&lt;li&gt;I started off OK. Jumped straight into the slides was doing fine.&lt;/li&gt;
+&lt;li&gt;The extended mode caught me off guard, I practiced using one monitor so I assumed everyone could see what I was seeing.&lt;/li&gt;
+&lt;li&gt;I could gauge the audience’s response to some things I would say. I saw blank stares, confused stares, or bored stares.  I tried to adapt to this by trying to explain some extra detail of whatever concept I was explaining at the time.&lt;/li&gt;
+&lt;li&gt;I got ahead of my slides when going through some command line code - before I had set up the concepts for the step I had mistakenly moved on to.&lt;/li&gt;
+&lt;li&gt;I remembered &lt;em&gt;some&lt;/em&gt; of my queues to flip over to a different application, not all of them. I stammered when this happened.&lt;/li&gt;
+&lt;li&gt;The text from command line, Sublime, and Far were too small on the projector.&lt;/li&gt;
+&lt;li&gt;I digressed… A LOT.&lt;/li&gt;
+&lt;li&gt;I explained a concept and moved on to the next… abruptly.&lt;/li&gt;
+&lt;li&gt;I felt like I struggled explaining the concepts even though I understand them and use them all the time.&lt;/li&gt;
+&lt;li&gt;I was flipping between a command prompt (which I did not intend to use), Far Manager, and Sublime… a LOT.&lt;/li&gt;
+&lt;li&gt;There was a storm that knocked out the power momentarily. At this point, I switched to mirrored mode for the display.&lt;/li&gt;
+&lt;li&gt;The overall theme of the presentation changed as we went along, making it unclear and confusing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There’s probably a lot more but it all falls under the same stuff above.&lt;/p&gt;
+&lt;h3 id=&quot;what-are-some-improves&quot;&gt;What are some improves&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Practice explaining the core concepts before even working on the slides.&lt;/li&gt;
+&lt;li&gt;Write the entire presentation as a blog article first. I get my thoughts out better in writing, so an article should be the start of the presentation.&lt;/li&gt;
+&lt;li&gt;I practiced by myself, maybe practice in front of people? Like friends, perhaps?&lt;/li&gt;
+&lt;li&gt;I practiced the transitions from slides to text editor, but it was not in a “live” mentality; I would say to myself “and switch to sublime here”… instead of actually doing it.&lt;/li&gt;
+&lt;li&gt;Have queues that tell me to flip BACK to the slides.&lt;/li&gt;
+&lt;li&gt;Practice the examples more.&lt;/li&gt;
+&lt;li&gt;I actually volunteered to do just Gulp. It was recommended to do Gulp &lt;em&gt;and&lt;/em&gt; Grunt. This was a great idea, but I am not familiar with Grunt like I am with Gulp. I should have agreed but asked to do my talk in two months instead of the one. This would have given me more time to become familiar with Grunt.&lt;/li&gt;
+&lt;li&gt;Practice. Practice. PRACTICE…. THEN PRACTICE AGAIN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;what-are-some-sustains&quot;&gt;What are some sustains&lt;/h3&gt;
+&lt;p&gt;I’m having trouble with this section…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Um… I think I had pretty good eye contact?&lt;/li&gt;
+&lt;li&gt;I think that I know my tools pretty well. I was nervous, but I know how to use Sublime and command line.  I didn’t hesitate with those except when I couldn’t see the result during the time I was using “mirrored” mode.&lt;/li&gt;
+&lt;li&gt;I feel like I gave honest answers to audience questions.&lt;/li&gt;
+&lt;li&gt;I don’t take myself too seriously in public, which, I hope, makes people feel more comfortable. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;what-can-i-do-differently-next-time&quot;&gt;What can I do differently next time&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Be honest about an achievable time line.  This I had to learn. I don’t think I could have known that I would not have been able to become familiar with Grunt in that time.  But, now I do.  So, next time, be frank about needing more time.&lt;/li&gt;
+&lt;li&gt;Practice. EVERY. DAMNED. DAY.  I think I practiced a lot, but I made changes with almost every run through. I wonder if part of my problem was that I should have gotten to the point where changes were minute or nonexistent before I could say I was actually &lt;em&gt;practicing&lt;/em&gt;.  Either way, I think practice would have made this go way more smoothly as I can just run through things instinctively without having to think hard about my next step.&lt;/li&gt;
+&lt;li&gt;Practice with an 800*600 screen, make sure anything I am going to display (especially if it has text) that it is bumped up to as large as possible, so everyone can see.&lt;/li&gt;
+&lt;li&gt;Use black on white text? I think projectors with poor lighting display this better. Command line, Sublime, and Far all had dark backgrounds and white text.&lt;/li&gt;
+&lt;li&gt;Don’t use an “extended” display mode. Stick to mirrored!&lt;/li&gt;
+&lt;li&gt;Have a basic slide and example ready &lt;em&gt;before&lt;/em&gt; volunteering for a meetup.&lt;/li&gt;
+&lt;li&gt;Invite friends over for dinner, then sucker them into listening/watching my practice. :D&lt;/li&gt;
+&lt;li&gt;Record myself during practice&lt;/li&gt;
+&lt;li&gt;Record myself during actual presentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final thoughts&lt;/h2&gt;
+&lt;p&gt;So, it sounds like I’m saying I didn’t practice enough. Seems legit.  &lt;/p&gt;
+&lt;p&gt;A while back, I went to a meetup where the speaker was, well, not that great.  As I thought this, though, I immediately thought that this person is up there giving a talk… which is more than I have done.  A friendly person echoed that statement to me right after I finished and it raised my spirits. Sure, I sucked, but I did it. I finished. And, by gum, I’ll improve!&lt;/p&gt;
+&lt;p&gt;I also wanted to note that everyone’s general friendliness is another reason why I am excited to be a web developer. Nothing but encouragement from people - it’s a great feeling to have supportive peers.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 11</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-11/</link>
