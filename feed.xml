@@ -5,9 +5,28 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Sat, 16  Aug 2014 20:00:00 -0400</pubDate>
+    <pubDate>Sat, 23  Aug 2014 08:24:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 12</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-12/</link>
+      <pubDate>Sat, 23  Aug 2014 08:24:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-12/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 11&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Word Problems&lt;/li&gt;
+&lt;li&gt;Wakanda 9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;word-problems&quot;&gt;Word Problems&lt;/h2&gt;
+&lt;p&gt;I was given a programming word problem to solve this week.  It has been a &lt;em&gt;long&lt;/em&gt; time since I have worked on word problems, let alone a programming specific one.  The problem used typical programming problem tropes, yet I found myself doing a good deal of research to solve. It was exciting to be challenged that way - it’s been a while. I hope to have a dedicated article on it later next week.&lt;/p&gt;
+&lt;h2 id=&quot;wakanda-9&quot;&gt;Wakanda 9&lt;/h2&gt;
+&lt;p&gt;This week was end of sprint so I was focused on that much of the week.  We’re taking a week off to catch up on admin stuff, work on some prototyping, and explore Wakanda 9. At first, we were thinking of implementing it straight out, but after a little research, we realized it wasn’t an actual release; it was in their “stabilization channel”.  I’m not sure what that means, but they also have a “production channel” which is still pointing to Wakanda 8. Because of this, we assumed that Wakanda 9 is a release candidate at best, a beta product at worst. Either way, not ready for production yet.&lt;/p&gt;
+&lt;p&gt;Wakanda 9 removed a lot of deprecated stuff. Stuff that we were using because of Wakanda’s poor documentation. For example, I tried using the newer data storage events but couldn’t get them to work. I then flipped over to the deprecated versions and they worked perfectly. The documentation is confusing and poorly written, unfortunately. We often have to bring out the hammer to get things to work. This is bad for obvious reasons, but it’s also a good thing.  It is a good thing because it’s an &lt;em&gt;awesome&lt;/em&gt; way to learn.  Having to pave your own way, without a guide or a map? It’s exploration at it’s purest!  That doesn’t mean I think it’s an efficient way, I just think it’s fun sometimes. &lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>First Meetup Presentation</title>
       <link>http://dev.endgamestudio.com//articles/Meetup-talk-aar/</link>
