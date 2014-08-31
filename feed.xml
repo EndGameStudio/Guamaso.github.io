@@ -5,9 +5,30 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Sun, 24  Aug 2014 20:00:00 -0400</pubDate>
+    <pubDate>Sat, 30  Aug 2014 08:24:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 13</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-13/</link>
+      <pubDate>Sat, 30  Aug 2014 08:24:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-13/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 13&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Perfomance&lt;/li&gt;
+&lt;li&gt;CanJS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;perfomance&quot;&gt;Perfomance&lt;/h2&gt;
+&lt;p&gt;The idea of performant JavaScript is not a dormant subject nor an unexplored one.  I run into things all the time that teach me how to write faster JavaScript. The problem I found out recently, though, is that the tips I find are usually tips on how current code can be faster. Like looping through an array backwards (from length to zero) or using arrays to concatenate.&lt;/p&gt;
+&lt;p&gt;Not having a computer science degree (and I’m not really certain the two are linked, but it sure feels like they are), I had not heard of Big O notation before.  But this is the kind of stuff I want to learn when it comes to writing better JavaScript.  When it comes to writing code, I try to focus on making it readable along with making it fast and making it the right solution. Striking a balance between these is difficult as it is. Arriving to the balanced solution is increasingly difficult when training on one or many of the different parts is absent. For me, for example, I obviously suck at performant JavaScript. I think I do pretty good with making it readable. Research, tests and other reviews will tell me if the solution is correct - so that’s pretty good too.&lt;/p&gt;
+&lt;p&gt;The point is, though, as our skills continuously evolve, we’ll unlock discoveries and knowledge that allow us to continue improving.  It’s like a skills tree in a video game, you can’t unlock some parts of the tree without first unlocking other parts. But with every unlocked skill, we get that much better in a fight.&lt;/p&gt;
+&lt;h2 id=&quot;canjs&quot;&gt;CanJS&lt;/h2&gt;
+&lt;p&gt;I visited my wife at work last week and noticed that they were using this big binder to keep track of their schedules. I examined some of the sheets and found hand written corrections and notes.  I wondered how could they possibly not experience situations where people arrive to work at the wrong times… or days?! I thought I could help out by working on a scheduling app using Firebase and CanJS.  Two tools I’ve been itching to really commit to for a while now.&lt;/p&gt;
+&lt;p&gt;I chose CanJS a while ago because of it’s small foot print.  After working with it (and after working with Ember a month ago), I’m still pretty happy with CanJS.  It’s pretty straight forward, although I think that some of the training materials are outdated.  The documentation helps with this as it’s easy to read and very concise.  I’ll add more updates as I go along.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Warriors</title>
       <link>http://dev.endgamestudio.com//articles/Warriors%20of%20the%20Code/</link>
