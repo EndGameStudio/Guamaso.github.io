@@ -5,9 +5,28 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Sat, 30  Aug 2014 08:24:00 -0400</pubDate>
+    <pubDate>Fri, 05 Sep 2014 23:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 14</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-14/</link>
+      <pubDate>Fri, 05 Sep 2014 23:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-14/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 14&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New Job&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;new-job&quot;&gt;New Job&lt;/h2&gt;
+&lt;p&gt;Most of my “web developer” time has been spent working on products or for a very specific set of customers.  I tried freelance in the beginning but didn’t have the experience for it at the time.  So, to have the opportunity to not just get some of that “agency” experience but to also work with a company that mirrors my own ideals as far as open source, tools, and community - well, it’s an amazing feeling.  My last day with Knowledge Sharing Systems is the the 12th.  I start with Bitovi as soon as I can. :)&lt;/p&gt;
+&lt;p&gt;I find that transitions are awkward and weird.  Sometimes you get what people in the military call “figmo” (eff it, got my orders) and you just stop caring.  I have to be honest, I do feel like that in some ways which, in turn, makes me feel horrible.  I &lt;em&gt;want&lt;/em&gt; to care.  I &lt;em&gt;want&lt;/em&gt; the thing that I create to be its very best.  So, I pondered my feelings for a while and realized something important: we owe our amazing jobs to the people that use the things we make.  &lt;/p&gt;
+&lt;p&gt;Well, duh, right? I gave it some more thought, though… I get to build web things because there is a need for them; because there is a demand.  Due to that demand, I have amazing opportunites available to me that I wouldn’t have access to otherwise.  It’s these people that I want to honor. &lt;/p&gt;
+&lt;p&gt;Yea, it’s a pretty mushy but it is true.  All I’m saying is, if the work sucks, fine. But don’t stop giving it 100% just because it sucks - it’s being built because people have a need for it and they deserve your best. &lt;/p&gt;
+&lt;p&gt;I had a lot of fun at my job, lot’s of interesting, fun, and challenging puzzles.  I’m just ready to move on to the next set of challenges, I think.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 13</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-13/</link>
