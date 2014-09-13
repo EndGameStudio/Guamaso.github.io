@@ -5,9 +5,35 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 05 Sep 2014 23:00:00 -0400</pubDate>
+    <pubDate>Sat, 13 Sep 2014 10:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 15</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-15/</link>
+      <pubDate>Sat, 13 Sep 2014 10:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-15/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 15&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Last Day&lt;/li&gt;
+&lt;li&gt;Scraping with Cheerio&lt;/li&gt;
+&lt;li&gt;MongoDB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;last-day&quot;&gt;Last Day&lt;/h2&gt;
+&lt;p&gt;Finished my last day at KSS.  Good times there. It’s always sad to end a relationship.  I still would like to maintain the individual relationships I made and even the organizational relationship as well. What I’m trying to say is that the relationship that I had between myself and the employer is done and &lt;em&gt;that&lt;/em&gt; makes me feel a little bummed out. You spend all this time building relationships with people and the work itself and then &lt;em&gt;bam&lt;/em&gt;, it’s done.  It’s easy to maintain a connection when you have to be at a place doing a specific list of tasks. Without that constraint, keeping those relationships is difficult.&lt;/p&gt;
+&lt;p&gt;On the other hand, the end of one chapter leads to the start of another. New people, new challenges, new puzzles. Can’t wait.&lt;/p&gt;
+&lt;h2 id=&quot;scraping-with-cheerio&quot;&gt;Scraping with Cheerio&lt;/h2&gt;
+&lt;p&gt;The Town of Cary maintains a historic theater named &lt;a href=&quot;http://www.townofcary.org/Departments/Parks__Recreation___Cultural_Resources/Facilities/Cultural_Arts_Centers/thecary.htm&quot;&gt;The Cary&lt;/a&gt;.  The town also maintains it’s website that lists all the show times.  Apparently, they don’t do a great job of using the data to it’s fullest potential.  The Code for America brigade that I help out at wants to parse out that data and create a front end experience that is more helpful to potential customers.&lt;/p&gt;
+&lt;p&gt;I started with figuring out how to scrape a page with &lt;a href=&quot;https://github.com/cheeriojs/cheerio&quot;&gt;Cheerio&lt;/a&gt;. It’s amazingly easier than I thought it would be.  The problem is with the structure of the page.  As I’m building the scraping module, I’m hoping that they don’t change the structure very often, if at all.  Without unique attributes to target specific elements, I have to use the structure to find the show time listings on the page.&lt;/p&gt;
+&lt;p&gt;The show times themselves have a very volatile structure. So, I’m trying to use tools like Moment to figure out what cell has what piece of data.  That’s where I am at right now.  All of this is in a prototyping stage but I also want to start storing the raw scrapes somewhere… somewhere being MongoDB.  The more data points I have, the more accurate my parser will be.&lt;/p&gt;
+&lt;h2 id=&quot;mongodb&quot;&gt;MongoDB&lt;/h2&gt;
+&lt;p&gt;There are so many technologies out there. NoSQL data storage tools alone are a handful.  I just got a new machine and I’ve decided that instead of installing every tool I want to learn or use on the computer itself, I will spin up a VirtualBox machine and install it on there instead.  It’s a little bit of an overhead as far as installing and using go but the ability to completely turn off a service is worth it to me.&lt;/p&gt;
+&lt;p&gt;MongoDB, for example, I &lt;em&gt;know&lt;/em&gt; will not be taking up system resources when the VirtualBox machine is turned off.  Let’s say I need to install MySQL or something similar. I can do the same thing for those.  Development of the application still happens on my machine, they just point to the correct IP/Port to access the service.&lt;/p&gt;
+&lt;p&gt;Having never used Mongo, I’m looking over the documentation on how to do basic save/edits to data. Found a tool called Mongoose for NodeJS. &lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 14</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-14/</link>
