@@ -5,9 +5,28 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Sat, 13 Sep 2014 10:00:00 -0400</pubDate>
+    <pubDate>Fri, 19 Sep 2014 23:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 16</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-16/</link>
+      <pubDate>Fri, 19 Sep 2014 23:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-16/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 16&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First week completed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;first-week-completed&quot;&gt;First week completed&lt;/h2&gt;
+&lt;p&gt;Change is sometimes difficult, but always enriching.  This first week at Bitovi has been amazing. My brain hurts… but in a good way. I consider myself a pretty smart fellow; I don’t have a ton of experience but I learn quickly… &lt;em&gt;very&lt;/em&gt; quickly.&lt;/p&gt;
+&lt;p&gt;This week, though, challenged my ability to learn. The last time I felt this challenged was when I took my first web application development position. It’s so different and complex that it took me a while to get caught up.  On the one hand, I have this level of challenging work and very experienced peers.  On the other hand, I have this gratifying feeling of learning new things and becoming a better engineer.  And just like before, it will take me some time to get caught up, but when I do, it will be glorious.&lt;/p&gt;
+&lt;p&gt;Change can be so difficult that it can cause feelings of insecurity and fear.  This, in turn, increases the risk of failure.  Now imagine a place that understands this dynamic and does everything it can to make sure that people feel welcome and free to express their difficulties.  That’s Bitovi, a place with Bitovians.&lt;/p&gt;
+&lt;p&gt;Yes, change can be and usually is hard but when you’re surrounded by good people that care and want each other to succeed, the only way to fail is to stop trying.&lt;/p&gt;
+&lt;p&gt;It’s great to be a Bitovian.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 15</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-15/</link>
