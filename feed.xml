@@ -5,9 +5,37 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 19 Sep 2014 23:00:00 -0400</pubDate>
+    <pubDate>Mon, 29 Sep 2014 20:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 17</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-17/</link>
+      <pubDate>Mon, 29 Sep 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-17/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 17&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Changing routines&lt;/li&gt;
+&lt;li&gt;Learning Can JS&lt;/li&gt;
+&lt;li&gt;Goals for the week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;changing-routines&quot;&gt;Changing routines&lt;/h2&gt;
+&lt;p&gt;I liked finishing my weeks with weeknotes. I noticed that I started Monday with little context and wondered if weeknotes could help with that.&lt;/p&gt;
+&lt;p&gt;I’d like to be able to start my week with some goals that come from these. I normally have a small list of goals for the week but that usually includes house to-do’s and work to-do’s, not skill-leveling-up to-do’s.  So, I thought I’d try switching my week notes to Mondays instead.&lt;/p&gt;
+&lt;p&gt;The problem with changing your routine, though, is that it breaks your routine!  Monday morning I was struggling with trying to remember something I had to do that day. I didn’t remember what it was until late that night.  That alone is a great learning experience: try not to change your routine, if you really have to, set yourself up for success by creating reminders or something similar that will help you transition and rebuild that routine.&lt;/p&gt;
+&lt;h2 id=&quot;learning-canjs&quot;&gt;Learning CANJS&lt;/h2&gt;
+&lt;p&gt;My first two weeks at &lt;a href=&quot;http://bitovi.com/&quot;&gt;Bitovi&lt;/a&gt; have been two weeks of non-stop learning. It’s been great.&lt;/p&gt;
+&lt;p&gt;Last week, I decided that I had enough confidence to try something simple with &lt;a href=&quot;http://canjs.com/&quot;&gt;CanJS&lt;/a&gt;. So, I created a very simple display of data using components.  I am going to clean out some of my personal data from it and make the code a bit more generic. Once that’s done, I’ll push the repo and write up a post of what I did. It’s nothing profound but it helped me review what I’ve learned and cement a lot of the concepts.&lt;/p&gt;
+&lt;h2 id=&quot;goals-for-the-week&quot;&gt;Goals for the week&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Push update to my CanJS practice app&lt;/li&gt;
+&lt;li&gt;Learn about &lt;a href=&quot;http://www.javascriptmvc.com/docs/DocumentJS.html&quot;&gt;DocumentJS&lt;/a&gt;, our open source JavaScript project documentation builder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Documentation is a pet-peeve of mine. Its a great opportunity to contribute to a project that can help other’s build helpful documentation for their projects.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 16</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-16/</link>
