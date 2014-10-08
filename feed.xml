@@ -5,9 +5,38 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Mon, 29 Sep 2014 20:00:00 -0400</pubDate>
+    <pubDate>Mon, 06 Oct 2014 20:00:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 18</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-18/</link>
+      <pubDate>Mon, 06 Oct 2014 20:00:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-18/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 18&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Never stop learning&lt;/li&gt;
+&lt;li&gt;CanJS and Firebase&lt;/li&gt;
+&lt;li&gt;Goals for the week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;never-stop-learning&quot;&gt;Never stop learning&lt;/h2&gt;
+&lt;p&gt;I was watching ‘3 Days to Kill’ the other night. I’m a huge Luc Besson fan, ever since Leon (more widely known as ‘The Professional’).  3 Days to Kill was ok, it was entertaining. It has &lt;em&gt;nothing&lt;/em&gt; to do with web development but there was a moment in the film that gave me pause regarding the progression of experiences and wisdom in our lives.&lt;/p&gt;
+&lt;p&gt;There’s a scene where Kevin Costner’s character is feeling really bad for himself, sitting on a bridge in Paris, eating Chinese food by himself.  I thought, here’s this bad ass CIA guy who thought he had a solid grasp of his world. But in this moment, he knows nothing.&lt;/p&gt;
+&lt;p&gt;What I like about this movie is that it goes against the cliche, “You can’t teach an old dog new tricks”.  Obviously, we get a happy ending for Kevin Costner after he learned to reassess what really was important in his life.  There is a more important message being displayed which is, family is the most important thing. But let’s focus on the Old-dog-learns-new-trick aspect.&lt;/p&gt;
+&lt;p&gt;In the technology world, the most important skill to have is learning. Apparently, this goes double for professional hit-men/CIA/secret agent dads.  But for people working with technology, there are moments where I get frustrated that I have to learn something new (it feels like very week these days). But once this new thing is learned and understood, I feel like He-man branding his sword high in the air; powerful and ready for the next challenge.&lt;/p&gt;
+&lt;h2 id=&quot;canjs-and-firebase&quot;&gt;CanJS and Firebase&lt;/h2&gt;
+&lt;p&gt;After building that quick CanJS page last week, I thought I’d take it a step further and build a CMS using Firebase as the backend.  I previously had trouble getting CanJS to talk with Firebase using &lt;code&gt;can.Model&lt;/code&gt;. After a few weeks of working at Bitovi and facing the different CanJS challenges, as well as reviewing the CanJS documentation, I was able to figure out a solution.&lt;/p&gt;
+&lt;p&gt;There aren’t any editing capabilities but the exciting part is it took me less than a day to build what I have so far. The next step is getting the live binding in CanJS to auto update the local Firebase data.&lt;/p&gt;
+&lt;h2 id=&quot;goals-for-the-week&quot;&gt;Goals for the week&lt;/h2&gt;
+&lt;p&gt;I wasn’t able to spend a lot of time with Document JS, pretty much only what I need for work.  I figured this will be an ongoing thing, learning Document JS as well as our other open source projects, specifically StealJS.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect live binding to Firebase&lt;/li&gt;
+&lt;li&gt;Write article on experience with CanJS + Firebase.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 17</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-17/</link>
