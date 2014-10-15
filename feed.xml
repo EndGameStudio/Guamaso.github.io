@@ -5,13 +5,33 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Mon, 06 Oct 2014 20:00:00 -0400</pubDate>
+    <pubDate>Mon, 13 Oct 2014 20:00:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
+      <title>Weeknotes 19</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2014-19/</link>
+      <pubDate>Mon, 13 Oct 2014 20:00:00 -0500</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-19/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 19&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Cary Updates&lt;/li&gt;
+&lt;li&gt;Goals for the week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;the-cary-updates&quot;&gt;The Cary Updates&lt;/h2&gt;
+&lt;p&gt;You can see the main updates on the &lt;a href=&quot;http://www.codeforcary.org/projects/the_cary/updates/2&quot;&gt;Code for Cary&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;I like the idea of abstracting the scraper tool from the scraping steps.  The page we scrape can change over time and may not lend itself to being scraped easily. Also, we might need to scrape other pages to verify our data.  For these reasons I want to build a tool that can read a configuration file, process it into commands, then do the actual scrape. The file will also tell the tool how to build the data it scrapes.  &lt;/p&gt;
+&lt;p&gt;I need to work out the structure of the config file so I know what needs to be built but I’m thinking of starting small and just trying to make something basic. Then, as I continue with The Cary, I can refactor as needed.&lt;/p&gt;
+&lt;h2 id=&quot;goals-for-the-week&quot;&gt;Goals for the week&lt;/h2&gt;
+&lt;p&gt;I’m in training in Chicago all week so just focusing on absorbing as much as possible.&lt;/p&gt;
+</description>
+    </item>
+    <item>
       <title>Weeknotes 18</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-18/</link>
-      <pubDate>Mon, 06 Oct 2014 20:00:00 -0400</pubDate>
+      <pubDate>Mon, 06 Oct 2014 20:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-18/</guid>
       <author></author>
       <description>&lt;p&gt;Week 18&lt;/p&gt;
@@ -40,7 +60,7 @@
     <item>
       <title>Weeknotes 17</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-17/</link>
-      <pubDate>Mon, 29 Sep 2014 20:00:00 -0400</pubDate>
+      <pubDate>Mon, 29 Sep 2014 20:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-17/</guid>
       <author></author>
       <description>&lt;p&gt;Week 17&lt;/p&gt;
@@ -68,7 +88,7 @@
     <item>
       <title>Weeknotes 16</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-16/</link>
-      <pubDate>Fri, 19 Sep 2014 23:00:00 -0400</pubDate>
+      <pubDate>Fri, 19 Sep 2014 23:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-16/</guid>
       <author></author>
       <description>&lt;p&gt;Week 16&lt;/p&gt;
@@ -87,7 +107,7 @@
     <item>
       <title>Weeknotes 15</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-15/</link>
-      <pubDate>Sat, 13 Sep 2014 10:00:00 -0400</pubDate>
+      <pubDate>Sat, 13 Sep 2014 10:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-15/</guid>
       <author></author>
       <description>&lt;p&gt;Week 15&lt;/p&gt;
@@ -113,7 +133,7 @@
     <item>
       <title>Weeknotes 14</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-14/</link>
-      <pubDate>Fri, 05 Sep 2014 23:00:00 -0400</pubDate>
+      <pubDate>Fri, 05 Sep 2014 23:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-14/</guid>
       <author></author>
       <description>&lt;p&gt;Week 14&lt;/p&gt;
@@ -132,7 +152,7 @@
     <item>
       <title>Weeknotes 13</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-13/</link>
-      <pubDate>Sat, 30  Aug 2014 08:24:00 -0400</pubDate>
+      <pubDate>Sat, 30  Aug 2014 08:24:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-13/</guid>
       <author></author>
       <description>&lt;p&gt;Week 13&lt;/p&gt;
@@ -153,7 +173,7 @@
     <item>
       <title>Warriors</title>
       <link>http://dev.endgamestudio.com//articles/Warriors%20of%20the%20Code/</link>
-      <pubDate>Sun, 24  Aug 2014 20:00:00 -0400</pubDate>
+      <pubDate>Sun, 24  Aug 2014 20:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/Warriors%20of%20the%20Code/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;strong&gt;Warriors of the Code&lt;/strong&gt;&lt;/p&gt;
@@ -184,7 +204,7 @@
     <item>
       <title>Weeknotes 12</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-12/</link>
-      <pubDate>Sat, 23  Aug 2014 08:24:00 -0400</pubDate>
+      <pubDate>Sat, 23  Aug 2014 08:24:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-12/</guid>
       <author></author>
       <description>&lt;p&gt;Week 11&lt;/p&gt;
@@ -203,7 +223,7 @@
     <item>
       <title>First Meetup Presentation</title>
       <link>http://dev.endgamestudio.com//articles/Meetup-talk-aar/</link>
-      <pubDate>Sat, 16  Aug 2014 20:00:00 -0400</pubDate>
+      <pubDate>Sat, 16  Aug 2014 20:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/Meetup-talk-aar/</guid>
       <author></author>
       <description>&lt;h1 id=&quot;first-meetup-presentation-after-action-review&quot;&gt;First Meetup Presentation After Action Review&lt;/h1&gt;
@@ -278,7 +298,7 @@
     <item>
       <title>Weeknotes 11</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-11/</link>
-      <pubDate>Sat, 16  Aug 2014 08:24:00 -0400</pubDate>
+      <pubDate>Sat, 16  Aug 2014 08:24:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-11/</guid>
       <author></author>
       <description>&lt;p&gt;Week 11&lt;/p&gt;
@@ -301,7 +321,7 @@
     <item>
       <title>Weeknotes 10</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-10/</link>
-      <pubDate>Sun, 10  Aug 2014 08:24:00 -0400</pubDate>
+      <pubDate>Sun, 10  Aug 2014 08:24:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-10/</guid>
       <author></author>
       <description>&lt;p&gt;Week 10&lt;/p&gt;
@@ -327,7 +347,7 @@
     <item>
       <title>Weeknotes 9</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-09/</link>
-      <pubDate>Fri, 01  Aug 2014 10:24:00 -0400</pubDate>
+      <pubDate>Fri, 01  Aug 2014 10:24:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-09/</guid>
       <author></author>
       <description>&lt;p&gt;Week 9&lt;/p&gt;
@@ -351,7 +371,7 @@
     <item>
       <title>Weeknotes 8</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-08/</link>
-      <pubDate>Fri, 25 Jul 2014 10:24:00 -0400</pubDate>
+      <pubDate>Fri, 25 Jul 2014 10:24:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-08/</guid>
       <author></author>
       <description>&lt;p&gt;Week 8&lt;/p&gt;
@@ -372,7 +392,7 @@
     <item>
       <title>Wakanda Data Import</title>
       <link>http://dev.endgamestudio.com//articles/Wakanda-Import-Concept/</link>
-      <pubDate>Fri, 25 Jul 2014 10:01:00 -0400</pubDate>
+      <pubDate>Fri, 25 Jul 2014 10:01:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/Wakanda-Import-Concept/</guid>
       <author></author>
       <description>&lt;h1 id=&quot;wakanda-data-import-tool&quot;&gt;Wakanda Data Import Tool&lt;/h1&gt;
@@ -388,7 +408,7 @@
     <item>
       <title>Weeknotes 7</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-07/</link>
-      <pubDate>Fri, 18 Jul 2014 20:00:00 -0400</pubDate>
+      <pubDate>Fri, 18 Jul 2014 20:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-07/</guid>
       <author></author>
       <description>&lt;p&gt;Week 7: &lt;/p&gt;
@@ -416,7 +436,7 @@
     <item>
       <title>Weeknotes 6</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-06/</link>
-      <pubDate>Fri, 11 Jul 2014 20:00:00 -0400</pubDate>
+      <pubDate>Fri, 11 Jul 2014 20:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-06/</guid>
       <author></author>
       <description>&lt;p&gt;Week 6: &lt;/p&gt;
@@ -444,7 +464,7 @@
     <item>
       <title>Project Mind Dump</title>
       <link>http://dev.endgamestudio.com//articles/project-mind-dump/</link>
-      <pubDate>Thu, 10 Jul 2014 14:30:00 -0400</pubDate>
+      <pubDate>Thu, 10 Jul 2014 14:30:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/project-mind-dump/</guid>
       <author></author>
       <description>&lt;p&gt;I suffer from “Oh shinny” disease. Symptoms include taking on too many new projects, tasks, or challenges.  There is no cure, but symptoms can be alleviated somewhat by sitting down and doing a mind dump.&lt;/p&gt;
@@ -475,7 +495,7 @@
     <item>
       <title>Week Notes 5</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-05/</link>
-      <pubDate>Sat, 05 Jul 2014 15:00:00 -0400</pubDate>
+      <pubDate>Sat, 05 Jul 2014 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-05/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;strong&gt;Week Notes #5&lt;/strong&gt;&lt;/p&gt;
@@ -490,7 +510,7 @@
     <item>
       <title>Week Notes 4</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-04/</link>
-      <pubDate>Sat, 28 Jun 2014 15:00:00 -0400</pubDate>
+      <pubDate>Sat, 28 Jun 2014 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-04/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;strong&gt;Week Notes #4&lt;/strong&gt;&lt;/p&gt;
@@ -506,7 +526,7 @@
     <item>
       <title>Week Notes 3</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-03/</link>
-      <pubDate>Fri, 20 Jun 2014 15:00:00 -0400</pubDate>
+      <pubDate>Fri, 20 Jun 2014 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-03/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;strong&gt;Week Notes #3&lt;/strong&gt;&lt;/p&gt;
@@ -519,7 +539,7 @@
     <item>
       <title>Week Notes 2</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-02/</link>
-      <pubDate>Sat, 14 Jun 2014 15:00:00 -0400</pubDate>
+      <pubDate>Sat, 14 Jun 2014 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-02/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;strong&gt;Week Two&lt;/strong&gt;&lt;/p&gt;
@@ -534,7 +554,7 @@
     <item>
       <title>Publishing Wintersmith with Gulp - Version 1</title>
       <link>http://dev.endgamestudio.com//articles/publishing-with-gulp-and-wintersmith/</link>
-      <pubDate>Sun, 08 Jun 2014 20:31:00 -0400</pubDate>
+      <pubDate>Sun, 08 Jun 2014 20:31:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/publishing-with-gulp-and-wintersmith/</guid>
       <author></author>
       <description>&lt;p&gt;Unfortunately, I didn’t get all of my must-have items but I was able to get most of them.&lt;/p&gt;
@@ -555,7 +575,7 @@
     <item>
       <title>Learning Gulp, Wintersmith tasks</title>
       <link>http://dev.endgamestudio.com//articles/learning-gulp/</link>
-      <pubDate>Sun, 08 Jun 2014 13:20:00 -0400</pubDate>
+      <pubDate>Sun, 08 Jun 2014 13:20:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/learning-gulp/</guid>
       <author></author>
       <description>&lt;p&gt;I like command line but as a consumer of some products, I prefer a GUI. Automated tasks runners like Grunt and Gulp, in my opinion should have a GUI for consumers (read: developers). I’ve seen some early work and attempts but nothing very usable. So, here I am learning one of them because, through all my complaining, I &lt;em&gt;do&lt;/em&gt; need to learn them.
@@ -616,7 +636,7 @@
     <item>
       <title>Week Notes 1</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2014-01/</link>
-      <pubDate>Fri, 06 Jun 2014 15:00:00 -0400</pubDate>
+      <pubDate>Fri, 06 Jun 2014 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2014-01/</guid>
       <author></author>
       <description>&lt;p&gt;&lt;strong&gt;Week Notes #1&lt;/strong&gt;&lt;/p&gt;
@@ -630,7 +650,7 @@
     <item>
       <title>Blocking Right Click Is Just Bad</title>
       <link>http://dev.endgamestudio.com//articles/right-click-blocking-is-bad/</link>
-      <pubDate>Thu, 24 Apr 2014 15:00:00 -0400</pubDate>
+      <pubDate>Thu, 24 Apr 2014 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/right-click-blocking-is-bad/</guid>
       <author></author>
       <description>&lt;p&gt;My uncle’s family owns their own successful restaurant back in California. Really great Mexican food. Most dishes are authentic to the area they are from back in Mexico. Other dishes are hybrids to cater to different tastes but it’s all good grub!&lt;/p&gt;
@@ -659,7 +679,7 @@
     <item>
       <title>Hello World!</title>
       <link>http://dev.endgamestudio.com//articles/helloworld/</link>
-      <pubDate>Wed, 23 Apr 2014 15:00:00 -0400</pubDate>
+      <pubDate>Wed, 23 Apr 2014 15:00:00 -0500</pubDate>
       <guid isPermaLink="true">http://dev.endgamestudio.com//articles/helloworld/</guid>
       <author></author>
       <description>&lt;p&gt;I like Ruby in the same way that I like craft/micro beers. I actually don’t like beer, but I like the idea that there is a growing trend for something better than your mass produced, corn syrup sweetened, GMO wheat fermentation. Ruby’s great… but I’m more of a hard cider guy. &lt;/p&gt;
