@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>Weeknotes 20 - Juan's Dev Journal
+    <title>Weeknotes 21 - Juan's Dev Journal
     </title>
     <link rel="alternate" href="http://dev.endgamestudio.com//feed.xml" type="application/rss+xml" title="Dev journal, snippets, and rants.">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
@@ -13,7 +13,7 @@
   <body class="article-detail">
     <header class="header">
       <div class="content-wrap">
-        <h1>Weeknotes 20</h1>
+        <h1>Weeknotes 21</h1>
         <p class="author">Written by <span class="author"><a href="mailto:juanthedesigner@gmail.com">Juan Orozco</a></span>
         </p>
       </div>
@@ -23,19 +23,19 @@
         <article class="article">
           <section class="content"><p>Week&nbsp;20</p>
 <ul>
-<li>Catching&nbsp;Up</li>
-<li>Being&nbsp;mobile</li>
+<li>Metalsmith</li>
 <li>Goals for the&nbsp;week</li>
 </ul>
 <p><span class="more"></span></p>
-<h2 id="catching-up">Catching&nbsp;Up</h2>
-<p>Technically, this is <em>not</em> week 20, I am not interested in calculating what week it <em>really</em> is. We fail, we get back up and clear the dust, and we keep moving&nbsp;forward.</p>
-<p>Life has continued to move in the past few months. I attended a CanJS meetup, I hope to be able to help out more often with the meetup.  I’m working on building something useful for my wife to help with her homeschooling. Work itself is proving to be fun, hard, and&nbsp;rewarding.</p>
-<h2 id="being-mobile">Being&nbsp;mobile</h2>
-<p>I have spent the past couple weeks with family in California. The biggest problem I’ve run into is not having ready access to wireless internet (Seriously, who doesn’t have Wi-fi anymore!?) I resolved this using my wireless hotspot which works great! Except I still like to watch things on Hulu and Netflix and sync my Dropbox and update the apps on my phone, etc. These activities have forced me to up our data&nbsp;limit.</p>
-<p>Other than internet access, the only other problem is finding a quiet place to work. Coffee joints here aren’t too abundant and the kids can be, well, loud.  Next time I need to travel like this, I’ll probably scope out some coworking offices before hand.  It will probably be cheaper and less&nbsp;stressful.</p>
+<h2 id="metalsmith">Metalsmith</h2>
+<p><a href="http://www.metalsmith.io/">Metalsmith</a> is a JavaScript static site generator. The site also says it can scaffold and automate processes. It’s very similar to Gulp in that it uses pipes (called <code>use</code> in Metalsmith) and, obviously, it uses streams. Metalsmith can indeed be used to scaffold applications but I don’t know why anyone would use that in client work with more heavy communities like Gulp and&nbsp;Grunt.</p>
+<p>Still, I tried using Gulp to build a static site and found it somewhat cumbersome and difficult.  Metalsmith seems to handle this task effortlessly.  I’m using it now to build a really simple photoblog site and I find it more flexible than Wintersmith as&nbsp;well.</p>
+<p>Wintersmith’s biggest downfall, with me at least, was it’s inability to handle drafts. A plugin would have to be written in order to handle it. Metalsmith is the same. The difference, though, is that writing a plugin for Metalsmith is sooo much easier. That and there’s already a plugin to handle drafts!&nbsp;;)</p>
+<p>I’ve run into a few problems with Metalsmith because of the way I want to do things, and all I have to do is write a plugin for it. I wanted to change the date format and couldn’t find an easy plugin for that, so I wrote a quick plugin that copies and formats the date. It’s not a very good, reusable plugin, but it does the job for&nbsp;now.</p>
+<p>The only weird issue I’ve run into that doesn’t rub me right is pagination of posts. I don’t want to use Handlebars and I’m trying to figure out how to paginate without switching my templating&nbsp;engine.</p>
+<p>Also, the pagination and custom link plugins are very order dependent. But, that kinda makes sense, I&nbsp;think.</p>
 <h2 id="goals-for-the-week">Goals for the&nbsp;week</h2>
-<p>I’m catching up on all my little web homes. This week’s goal is to simple update all my sites with one item. This could be an article or something&nbsp;simpler.</p>
+<p>I am using Things to manage my Todo lists. I added all my little sites as tags and created a Website project. I am populating it with all the updates I want to make to my sites.  This week, I would like to start whittling the list&nbsp;down.</p>
 </section>
         </article>
       </div>
