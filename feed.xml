@@ -5,9 +5,66 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 23 Jan 2015 13:27:00 -0500</pubDate>
+    <pubDate>Fri, 13 Feb 2015 13:27:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 26</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-06/</link>
+      <pubDate>Fri, 13 Feb 2015 13:27:00 -0500</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-06/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 26&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PhantomJS&lt;/li&gt;
+&lt;li&gt;Code for Cary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;phantomjs&quot;&gt;PhantomJS&lt;/h2&gt;
+&lt;p&gt;I have to research this more, but as I struggle with writing tests for my code, I have this recurring thought: why do we test code in a browser environment that really isn’t an end-user browser?  If it’s a module loader issue, fine. But I suspect it isn’t. Integration tests should be run on the different browsers the project has identified as key browsers.&lt;/p&gt;
+&lt;p&gt;I could just be complaining or missing something important. I’m skeptical, though. More research is required.&lt;/p&gt;
+&lt;h2 id=&quot;code-for-cary&quot;&gt;Code for Cary&lt;/h2&gt;
+&lt;p&gt;This past Tuesday (the 10th), Code for Cary met to listen to a request from the Arts Center folks. They essentially want to wrap their artwork database with a useful interface for citizens.  There’s a few different projects by other Brigades doing essentially the same thing but none of them are at the level Cary needs.&lt;/p&gt;
+&lt;p&gt;I’m still going over my notes about the project but I’m really excited to see what we can build for them. Cary, and many many other cities, have beautiful artwork that citizens can enjoy - if only they knew about them or how to find them.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 25</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-05/</link>
+      <pubDate>Fri, 06 Feb 2015 13:27:00 -0500</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-05/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 25&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keeping lists organized&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;keeping-lists-organized&quot;&gt;Keeping lists organized&lt;/h2&gt;
+&lt;p&gt;I’ve been using Things a lot in the past few months.  I’ve tried so many To Do apps and methods. I’ll admit that I never dove in the deep end of Getting Things Done. I thought GTD was just too “bossy” for me. I really liked Todo.txt because of its simplicity.  I tried plain pencil and paper but it got too cluttered.&lt;/p&gt;
+&lt;p&gt;After downloading Things, though, I researched GTD more and realized how powerful and simple it really is. Coupled with Things itself, which is very clean and well built, I’ve never had To Do’s so managed and within reach.  To Do lists are different for everyone and there’s so much talk out there about how to manage lists that I won’t go into it.&lt;/p&gt;
+&lt;p&gt;I wanted to talk about being forced to have multiple lists on different mediums. For example, a client has the project’s tasks in Jira. I have my personal stuff in Things.  My wife puts the shopping list in FetchNotes. I fight the urge to just make everyone use Things. Not that it would do me any good since you can’t really share items in Things…&lt;/p&gt;
+&lt;p&gt;I found that the “inboxing” time is important with keeping this madness under control. I go through my different lists and add what needs adding.&lt;/p&gt;
+&lt;p&gt;It’s pretty simple and fairly effective. There’s issues with “on-the-fly” situations like shopping lists but I adjust based on the situation. The point is, though, that these situations are minimized.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 24</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-04/</link>
+      <pubDate>Fri, 30 Jan 2015 13:27:00 -0500</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-04/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 24&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Audio notes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;audio-notes&quot;&gt;Audio notes&lt;/h2&gt;
+&lt;p&gt;I bought a recorder a while back mostly for personal audio journaling but also for an amature podcast I do with a friend. It feels weird recording yourself, I’m not a scientist or a researcher or a coroner so I don’t really have a &lt;em&gt;need&lt;/em&gt; for this kind of habit. That is, until I recorded my thoughts when I ran into a difficult programming problem.&lt;/p&gt;
+&lt;p&gt;More often then not, there is someone on-line that I can bounce ideas off of at work. But sometimes there isn’t someone available or sometimes I’m not at my computer and I’m just idly thinking of the problem.  It was during one of these moments that I decided to speak my thoughts out loud.&lt;/p&gt;
+&lt;p&gt;There’s some real power with speaking out your thoughts. It might look a little nutty, but it’s extremely helpful. I’m not sure what this phenomenon is, but it seems like the brain processes the thoughts differently once their out of the realm of thought.&lt;/p&gt;
+&lt;p&gt;Try it the next time your stuck.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 23</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2015-03/</link>
