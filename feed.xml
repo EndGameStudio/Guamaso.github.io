@@ -5,9 +5,25 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 06 Mar 2015 19:27:00 -0500</pubDate>
+    <pubDate>Fri, 13 Mar 2015 19:27:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 30</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-10/</link>
+      <pubDate>Fri, 13 Mar 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-10/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 30&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working outside&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;working-outside&quot;&gt;Working outside&lt;/h2&gt;
+&lt;p&gt;We had our first nice-ish day this year. It was nice enough to leave the windows open all day and even sit on the porch and do some work. There are days where I miss the immediate interaction one can get when working at an office. Collaboration works so much cleaner, I think, in this environment.&lt;/p&gt;
+&lt;p&gt;Remote work isn’t worse, it’s just different. This collaboration still exists, just over a wire. I don’t think it takes a “specific type of person” to be a remote worker, but it definitely requires a certain mindset. The rewards for being able to work this way are bountiful. One such benefit is working on your porch. ;)&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 29</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2015-09/</link>
