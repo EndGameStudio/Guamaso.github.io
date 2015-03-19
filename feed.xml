@@ -5,9 +5,66 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 13 Feb 2015 13:27:00 -0500</pubDate>
+    <pubDate>Fri, 06 Mar 2015 19:27:00 -0500</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 29</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-09/</link>
+      <pubDate>Fri, 06 Mar 2015 19:27:00 -0500</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-09/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 29&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CanJS and StealJS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;canjs-and-stealjs&quot;&gt;CanJS and StealJS&lt;/h2&gt;
+&lt;p&gt;I got a chance to work on the &lt;a href=&quot;https://github.com/CodeForCary/minervas-box&quot;&gt;Art Finder project&lt;/a&gt; for Code for Cary and I thought I would continue getting prototypes working.&lt;/p&gt;
+&lt;p&gt;For module loading, I am using StealJS. It’s the second time I’ve used it in a project with CanJS where I am using fixtures.  I’m a little behind on the two tools as far as how they work with each other. The biggest problem is StealJS chokes on &lt;code&gt;can.fixture.js&lt;/code&gt; because  CanJS 2.1.4 &lt;a href=&quot;https://forum.javascriptmvc.com/topic/can-fixture-stealjs&quot;&gt;doesn’t work with newest StealJS versions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I’m really bummed out by this and surprised. The solution is to use the CanJS minor branch but that causes other errors in my code and fixtures &lt;em&gt;still&lt;/em&gt; won’t load.  This app won’t be live any time soon so there’s no real rush but it’s a little frustrating.&lt;/p&gt;
+&lt;p&gt;We’ll see how that goes.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 28</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-08/</link>
+      <pubDate>Fri, 27 Feb 2015 19:27:00 -0500</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-08/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 28&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Logging time&lt;/li&gt;
+&lt;li&gt;StealJS with CanJS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;logging-time&quot;&gt;Logging time&lt;/h2&gt;
+&lt;p&gt;I wonder who really benefits from logging time. There are rarely tools that make it easy to capture time spent on projects, render time reports, &lt;em&gt;and&lt;/em&gt; add on other business specific options.  Never mind being cost effective.&lt;/p&gt;
+&lt;p&gt;I’ve spent a lot of time logging time and I was wondering how often time tracking is actually useful beyond the time spent tracking the actual time spent. More often I hear legal reasons than billing reasons and almost rarely hear productivity reasons.&lt;/p&gt;
+&lt;p&gt;Just sayin’.&lt;/p&gt;
+&lt;h2 id=&quot;firebase-s-firepad&quot;&gt;Firebase’s Firepad&lt;/h2&gt;
+&lt;p&gt;I built a quick app using &lt;a href=&quot;https://www.firebase.com/&quot;&gt;Firebase’s&lt;/a&gt; &lt;a href=&quot;http://www.firepad.io/&quot;&gt;Firepad tool&lt;/a&gt;. Firepad is a notepad with versioning (ish) and collaboration while using Firebase as the backend.  It’s pretty neat to have all that functionality baked in and not have to think about it.&lt;/p&gt;
+&lt;p&gt;Unfortunately, it doesn’t lend well to module loaders. This is fine but I want to make builds of it so I can use it in different places and only need to change a few options for each build.&lt;/p&gt;
+&lt;p&gt;I found myself working on separating each of it’s internal tools into files so I can require them into the main file.  This is great as I am learning a lot about module loaders and, specifically, StealJS.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 27</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-07/</link>
+      <pubDate>Fri, 20 Feb 2015 19:27:00 -0500</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-07/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 27&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CanJS and Steal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;canjs-scaffold&quot;&gt;CanJS scaffold&lt;/h2&gt;
+&lt;p&gt;I spun up a project scaffold from scratch for the Code for Cary Art Finder Project.  There isn’t really a good scaffolder for CanJS, unfortunately. There are a &lt;a href=&quot;https://github.com/smarkle/generator-can&quot;&gt;couple&lt;/a&gt; &lt;a href=&quot;https://www.npmjs.com/package/generator-canjs&quot;&gt;repos&lt;/a&gt; out there with &lt;a href=&quot;http://yeoman.io/&quot;&gt;Yeoman generators&lt;/a&gt; but they are a bit outdated in that they don’t work well with &lt;a href=&quot;http://canjs.com/docs/can.Component.html&quot;&gt;&lt;code&gt;can.Component&lt;/code&gt;&lt;/a&gt;.  That is to say, they &lt;em&gt;work&lt;/em&gt; they just don’t generate blank components.&lt;/p&gt;
+&lt;p&gt;Either way, I thought it would be a good idea to put into practice what I have learned on CanJS project structure.  I’m pretty happy with it and aim to post the project on Github soon.&lt;/p&gt;
+&lt;p&gt;I would like to actually keep this structure clean and make &lt;em&gt;it&lt;/em&gt; into a repo that I can use later. I’ve never created a Yeoman generator but I hear they’re super easy. Might take a stab at that as well.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 26</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2015-06/</link>

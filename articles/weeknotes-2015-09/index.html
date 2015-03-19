@@ -4,70 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
-    <title>Juan's Dev Journal
+    <title>Weeknotes 29 - Juan's Dev Journal
     </title>
     <link rel="alternate" href="http://dev.endgamestudio.com//feed.xml" type="application/rss+xml" title="Dev journal, snippets, and rants.">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
     <link rel="stylesheet" href="/css/main.css">
   </head>
-  <body>
+  <body class="article-detail">
     <header class="header">
       <div class="content-wrap">
-        <div class="logo">
-          <h1><a href="http://dev.endgamestudio.com/">Juan's Dev Journal</a></h1>
-          <p class="description">Dev journal, snippets, and rants.</p>
-        </div>
+        <h1>Weeknotes 29</h1>
+        <p class="author">Written by <span class="author"><a href="mailto:juanthedesigner@gmail.com">Juan Orozco</a></span>
+        </p>
       </div>
     </header>
     <div id="content">
       <div class="content-wrap">
-        <article class="article intro">
-          <header>
-            <p class="date"><span>23. January 2015</span></p>
-            <h2><a href="/articles/weeknotes-2015-03/">Weeknotes 23</a></h2>
-          </header>
-          <section class="content"><p>Week&nbsp;23</p>
+        <article class="article">
+          <section class="content"><p>Week&nbsp;29</p>
 <ul>
-<li>Agile&nbsp;thoughts</li>
-<li>Goals for the&nbsp;week</li>
+<li>CanJS and&nbsp;StealJS</li>
 </ul>
-<p>
-            <p class="more"><a href="/articles/weeknotes-2015-03/">more</a></p>
-          </section>
-        </article>
-        <article class="article intro">
-          <header>
-            <p class="date"><span>17. January 2015</span></p>
-            <h2><a href="/articles/weeknotes-2015-02/">Weeknotes 22</a></h2>
-          </header>
-          <section class="content"><p>Week&nbsp;22</p>
-<ul>
-<li>Travel</li>
-</ul>
-<p>
-            <p class="more"><a href="/articles/weeknotes-2015-02/">more</a></p>
-          </section>
-        </article>
-        <article class="article intro">
-          <header>
-            <p class="date"><span>13. January 2015</span></p>
-            <h2><a href="/articles/weeknotes-2015-01/">Weeknotes 21</a></h2>
-          </header>
-          <section class="content"><p>Week&nbsp;20</p>
-<ul>
-<li>Metalsmith</li>
-<li>Goals for the&nbsp;week</li>
-</ul>
-<p>
-            <p class="more"><a href="/articles/weeknotes-2015-01/">more</a></p>
-          </section>
+<p><span class="more"></span></p>
+<h2 id="canjs-and-stealjs">CanJS and&nbsp;StealJS</h2>
+<p>I got a chance to work on the <a href="https://github.com/CodeForCary/minervas-box">Art Finder project</a> for Code for Cary and I thought I would continue getting prototypes&nbsp;working.</p>
+<p>For module loading, I am using StealJS. It’s the second time I’ve used it in a project with CanJS where I am using fixtures.  I’m a little behind on the two tools as far as how they work with each other. The biggest problem is StealJS chokes on <code>can.fixture.js</code> because  CanJS 2.1.4 <a href="https://forum.javascriptmvc.com/topic/can-fixture-stealjs">doesn’t work with newest StealJS versions</a>.</p>
+<p>I’m really bummed out by this and surprised. The solution is to use the CanJS minor branch but that causes other errors in my code and fixtures <em>still</em> won’t load.  This app won’t be live any time soon so there’s no real rush but it’s a little&nbsp;frustrating.</p>
+<p>We’ll see how that&nbsp;goes.</p>
+</section>
         </article>
       </div>
     </div>
     <footer>
       <div class="content-wrap">
-        <div class="nav"><a href="/page/2/">« Newer</a><a href="/page/4/">Next page »</a>
-        </div>
+        <div class="nav"><a href="/">« Full blog</a></div>
         <section class="about"><p>Juan Orozco is a web applications engineer living in Raleigh NC. Although he prefers front end development, he is a generalist and really just loves to solve problems.</p>
 <p>By day, he is a JavaScript developer working to build amazing web applications at Bitovi. By night, he is a tinkerer and explorer, leveling up his skills in web engineering, interface design, and digital anthropology.</p>
 <p>The Dev Journal is powered by Wintersmith, Gulp and Github Pages. Wintersmith is made by <a href="http://johan-nordberg.com/">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
