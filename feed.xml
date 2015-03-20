@@ -5,9 +5,35 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 13 Mar 2015 19:27:00 -0400</pubDate>
+    <pubDate>Fri, 20 Mar 2015 10:52:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 31</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-11/</link>
+      <pubDate>Fri, 20 Mar 2015 10:52:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-11/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 31&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Six Months at Bitovi&lt;/li&gt;
+&lt;li&gt;CanJS Control&lt;/li&gt;
+&lt;li&gt;CanJS and Steal Part 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;six-months-at-bitovi&quot;&gt;Six Months at Bitovi&lt;/h2&gt;
+&lt;p&gt;I had my six month checkin this week. The realization that it’s been six months was weird. Time flies, man.&lt;/p&gt;
+&lt;p&gt;The past six months have been amazing. My desire to learn more and improve is constantly satisfied and challenged. I get to work with some bad ass people working on some bad ass projects. I’m pretty excited that it’s only been six months, that means I’m having fun.&lt;/p&gt;
+&lt;h2 id=&quot;canjs-control&quot;&gt;CanJS Control&lt;/h2&gt;
+&lt;p&gt;I’m trying out this pattern where, instead of adding more features to a component, I add the new feature as a &lt;a href=&quot;http://canjs.com/docs/can.Control.html&quot;&gt;can.Control&lt;/a&gt; that is designed to work specifically with the component.  Lately, we’ve been adding feature after feature to some components and they’re getting harder and harder to maintain.&lt;/p&gt;
+&lt;p&gt;Even after six months, I’m still learning new things about our open source tools like &lt;a href=&quot;http://canjs.com/&quot;&gt;CanJS&lt;/a&gt;. It &lt;em&gt;feels&lt;/em&gt; like this is a good solution but I can’t be certain until after it gets used for a bit.&lt;/p&gt;
+&lt;p&gt;My other thought was to build additional functionality for a component &lt;em&gt;within&lt;/em&gt; another discrete component. Then, if this functionality is needed, all one has to do is add the other component and target the original component. I’m not sure how the linking part would work so I decided to stick with the can.Control for now. We’ll see how it works out.&lt;/p&gt;
+&lt;h2 id=&quot;canjs-and-steal-part-2&quot;&gt;CanJS and Steal Part 2&lt;/h2&gt;
+&lt;p&gt;After researching other CanJS projects, I figured out my problem with getting fixtures to work in my art project. Using the &lt;a href=&quot;https://github.com/bitovi/canjs/releases/tag/v2.2.0&quot;&gt;new release of CanJS&lt;/a&gt;, I also had to update the paths in the Steal config file. Changing the paths meant updating every file I had old paths in. Once this was done, everything worked GREAT.&lt;/p&gt;
+&lt;p&gt;Now, I’m having problems with my routes, unrelated to the above though. I’m still getting familiar with how to write solid routes so it’s a little hard to debug. Also, the build isn’t actually building (I’m using Steal to load dependancies in the browser), and I need to verify my routes are good. So the first step is to make sure everything builds nicely.&lt;/p&gt;
+&lt;p&gt;We’re heading to Austin this week for a Bitovi retreat (super excited!) so I’m going miss this weeks &lt;a href=&quot;http://www.codeforcary.org/&quot;&gt;Code for Cary&lt;/a&gt; Meetup. I’m going to try and get a build working so we can have a prototype site running by the end of the week.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 30</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2015-10/</link>

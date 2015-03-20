@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Weeknotes 31 - Juan's Dev Journal
+    </title>
+    <link rel="alternate" href="http://dev.endgamestudio.com//feed.xml" type="application/rss+xml" title="Dev journal, snippets, and rants.">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Weeknotes 31</h1>
+        <p class="author">Written by <span class="author"><a href="mailto:juanthedesigner@gmail.com">Juan Orozco</a></span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>Week&nbsp;31</p>
+<ul>
+<li>Six Months at&nbsp;Bitovi</li>
+<li>CanJS&nbsp;Control</li>
+<li>CanJS and Steal Part&nbsp;2</li>
+</ul>
+<p><span class="more"></span></p>
+<h2 id="six-months-at-bitovi">Six Months at&nbsp;Bitovi</h2>
+<p>I had my six month checkin this week. The realization that it’s been six months was weird. Time flies,&nbsp;man.</p>
+<p>The past six months have been amazing. My desire to learn more and improve is constantly satisfied and challenged. I get to work with some bad ass people working on some bad ass projects. I’m pretty excited that it’s only been six months, that means I’m having&nbsp;fun.</p>
+<h2 id="canjs-control">CanJS&nbsp;Control</h2>
+<p>I’m trying out this pattern where, instead of adding more features to a component, I add the new feature as a <a href="http://canjs.com/docs/can.Control.html">can.Control</a> that is designed to work specifically with the component.  Lately, we’ve been adding feature after feature to some components and they’re getting harder and harder to&nbsp;maintain.</p>
+<p>Even after six months, I’m still learning new things about our open source tools like <a href="http://canjs.com/">CanJS</a>. It <em>feels</em> like this is a good solution but I can’t be certain until after it gets used for a&nbsp;bit.</p>
+<p>My other thought was to build additional functionality for a component <em>within</em> another discrete component. Then, if this functionality is needed, all one has to do is add the other component and target the original component. I’m not sure how the linking part would work so I decided to stick with the can.Control for now. We’ll see how it works&nbsp;out.</p>
+<h2 id="canjs-and-steal-part-2">CanJS and Steal Part&nbsp;2</h2>
+<p>After researching other CanJS projects, I figured out my problem with getting fixtures to work in my art project. Using the <a href="https://github.com/bitovi/canjs/releases/tag/v2.2.0">new release of CanJS</a>, I also had to update the paths in the Steal config file. Changing the paths meant updating every file I had old paths in. Once this was done, everything worked&nbsp;<span class="caps">GREAT</span>.</p>
+<p>Now, I’m having problems with my routes, unrelated to the above though. I’m still getting familiar with how to write solid routes so it’s a little hard to debug. Also, the build isn’t actually building (I’m using Steal to load dependancies in the browser), and I need to verify my routes are good. So the first step is to make sure everything builds&nbsp;nicely.</p>
+<p>We’re heading to Austin this week for a Bitovi retreat (super excited!) so I’m going miss this weeks <a href="http://www.codeforcary.org/">Code for Cary</a> Meetup. I’m going to try and get a build working so we can have a prototype site running by the end of the&nbsp;week.</p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <section class="about"><p>Juan Orozco is a web applications engineer living in Raleigh NC. Although he prefers front end development, he is a generalist and really just loves to solve problems.</p>
+<p>By day, he is a JavaScript developer working to build amazing web applications at Bitovi. By night, he is a tinkerer and explorer, leveling up his skills in web engineering, interface design, and digital anthropology.</p>
+<p>The Dev Journal is powered by Wintersmith, Gulp and Github Pages. Wintersmith is made by <a href="http://johan-nordberg.com/">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2015 @Guamaso &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
