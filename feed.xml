@@ -5,9 +5,114 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 20 Mar 2015 10:52:00 -0400</pubDate>
+    <pubDate>Fri, 24 Apr 2015 19:27:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 36</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-16/</link>
+      <pubDate>Fri, 24 Apr 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-16/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 36&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Managing Distractions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;managing-distractions&quot;&gt;Managing Distractions&lt;/h2&gt;
+&lt;p&gt;I fail at managing distractions A LOT. When a fellow developer needs my help, I’ll help. Even though I probably should finish my current train of thought before I switch contexts.&lt;/p&gt;
+&lt;p&gt;I feel like that’s the trick though; switching contexts successfully. If you can switch context, finish the new task, than switch back seamlessly… you’re amazing.  Most of us, I imagine, can’t do that.&lt;/p&gt;
+&lt;p&gt;Part of my problem is how I use my To Do list, Things.  I kind of wished there was a way to mark something as “current” or “in progress”, and only have the ability to mark one todo as such. It would also keep a memory of the order you worked on tasks. So, switching from task A to task B would be visible to you when you finished Task B and needed to return to task A.  It’s also not very easy to enter notes in Things. I love things and this is probably an edge case for many todo apps. This just means I need to have some sort of “context journal”.&lt;/p&gt;
+&lt;p&gt;I started that this week. I’ll report back on how it’s helping.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 35</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-15/</link>
+      <pubDate>Fri, 17 Apr 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-15/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 35&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;App Builds&lt;/li&gt;
+&lt;li&gt;CommonJS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;app-builds&quot;&gt;App builds&lt;/h2&gt;
+&lt;p&gt;As an application grows, especially in its infancy, there needs to be some processes in place to help achieve and maintain goals for the build process.&lt;/p&gt;
+&lt;p&gt;We recently split off all our web components into their own repo and this caused all kinds of madness. It was something we couldn’t foresee and, therefore, it wasn’t something we could have done better.&lt;/p&gt;
+&lt;p&gt;Still, when something we built ends up being a blocker for current work, there needs to be some sort of &lt;a href=&quot;http://dev.endgamestudio.com/articles/Meetup-talk-aar/&quot;&gt;AAR&lt;/a&gt; where we figure out what went wrong and how to avoid it in the future.&lt;/p&gt;
+&lt;p&gt;We don’t have a dev ops person… well, not explicitly anyway. I wouldn’t say we &lt;em&gt;should&lt;/em&gt; have one, but we should remove someone from a sprint when something huge happens, something like changing our repos this extensively. This person’s sole responsibility is to monitor and maintain the build. They should document and test the build until it satisfactory. A lot of people will have a problem with this because the velocity of the next sprint will be negatively affected. It’s a tough situation. I’m curious how similar size teams handle this situation.&lt;/p&gt;
+&lt;h2 id=&quot;commonjs&quot;&gt;CommonJS&lt;/h2&gt;
+&lt;p&gt;I had to familiarize myself with how CommonJS works a bit this week. I don’t mean the &lt;code&gt;require&lt;/code&gt; or &lt;code&gt;exports&lt;/code&gt; keywords but more how it looks for files and which &lt;em&gt;thing&lt;/em&gt; to use when there could be multiples. Maybe I’m not looking right but I couldn’t seem to find much on this type of information.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 34</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-14/</link>
+      <pubDate>Fri, 10 Apr 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-14/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 34&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;StealJS yet again&lt;/li&gt;
+&lt;li&gt;Promises/Deferreds&lt;/li&gt;
+&lt;li&gt;Learning about WebWorkers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;stealjs-yet-again&quot;&gt;StealJS yet again&lt;/h2&gt;
+&lt;p&gt;I spent some time working on the build process for The Art Project. It seems like i was using the incorrect distribution of CanJS. Once i switched to AMD, things started working. Im still having problems though. Now the stache plugin is returning some funky errors. Still debugging what the errors actually mean. &lt;/p&gt;
+&lt;p&gt;A question i have to bring up is why Steal doesn’t report better errors. Ill explain later as I’m still trying to make sure I
+m on the right track. &lt;/p&gt;
+&lt;h2 id=&quot;promises-and-deferreds&quot;&gt;Promises and deferreds&lt;/h2&gt;
+&lt;p&gt;I was working on a dialog implementation using can.component. Example usage of the component’s api was given to me and I just had to build it. Im glad i was given these examples as it seriously open my mind to the real possibilities of deferreds. &lt;/p&gt;
+&lt;p&gt;Being able to use reject and resolve to trigger different callback without having to pass the callbacks to the dialog itself is genius. Ill be adding this to our component library asap. &lt;/p&gt;
+&lt;h2 id=&quot;web-workers&quot;&gt;Web Workers&lt;/h2&gt;
+&lt;p&gt;I read a primer on web workers this week and I’m curious if they can be used to compile templates. I am using a pseudo model to manage a calendar widget, I bet this can be refactored to be a web worker as well. &lt;/p&gt;
+&lt;p&gt;It’s crazy how much the browser api and ECMA script combined have essentially become a programming environment like native mobile apps. Its cool and exciting, but also a little crazy. &lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 33</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-13/</link>
+      <pubDate>Fri, 03 Apr 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-13/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 33&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bitovi Retreat&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;bitovi-retreat&quot;&gt;Bitovi Retreat&lt;/h2&gt;
+&lt;p&gt;This was my first retreat with the team and it was AMAZING. The first part of the week was basically a hackathon where we tried to work on stuff that we had proposed back in December. Most being tools to improve our Open Source products.&lt;/p&gt;
+&lt;p&gt;The project I worked on was building a component library for CanJS.  Other teams worked on improving DocumentJS, CanJS, and more.  The component library ended up using many of the improvements to help present the work in a useful way. DocumentJS, for example, was great for creating the API docs that included demos of each component.  &lt;/p&gt;
+&lt;p&gt;After the work week, significant others were flown out for the weekend where we explored and enjoyed Austin Texas.&lt;/p&gt;
+&lt;p&gt;It was an amazing experience. There were long days but I can’t imagine a better group of people to spend loooong days with while getting some very cool stuff built.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 32</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-12/</link>
+      <pubDate>Fri, 27 Mar 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-12/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 32&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Scope creep&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;scope-creep&quot;&gt;Scope Creep&lt;/h2&gt;
+&lt;p&gt;I export my tasks from Jira and other work task management tools into Things. It’s easier because I can break up tasks into sizes that work better for me.&lt;/p&gt;
+&lt;p&gt;I noticed this past sprint that I added a single task to my workload. When I broke it out into individual tasks, it turned into three tasks. I then added documentation and test updates, which made it five tasks. &lt;/p&gt;
+&lt;p&gt;After working on the first task, I had questions on changes which resulted in two more tasks.  These new tasks, after the final product was reviewed, resulted in a five more tasks. Keep in mind these are all minimal tasks. One could be something like “change color for text” while another could be something more involved but still as small as it could be. Something like “resolve merge conflicts”. &lt;/p&gt;
+&lt;p&gt;This is really normal and I’m glad I aggregate my lists this way, specifically because it helps me respond to scope changes like this.&lt;/p&gt;
+&lt;p&gt;It’s also interesting to see a task list turn into a hydra monster. One task turned into three which turned into five, which turned into seven, which is still not done and could continue growing.&lt;/p&gt;
+&lt;p&gt;Keeping track of these monsters is important, at some point (if it continues to grow), the wheel needs to get squeaky.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 31</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2015-11/</link>

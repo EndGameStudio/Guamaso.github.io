@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Weeknotes 34 - Juan's Dev Journal
+    </title>
+    <link rel="alternate" href="http://dev.endgamestudio.com//feed.xml" type="application/rss+xml" title="Dev journal, snippets, and rants.">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>Weeknotes 34</h1>
+        <p class="author">Written by <span class="author"><a href="mailto:juanthedesigner@gmail.com">Juan Orozco</a></span>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>Week&nbsp;34</p>
+<h1 id="weeknotes">Weeknotes</h1>
+<ul>
+<li>StealJS yet&nbsp;again</li>
+<li>Promises/Deferreds</li>
+<li>Learning about&nbsp;WebWorkers</li>
+</ul>
+<p><span class="more"></span></p>
+<h2 id="stealjs-yet-again">StealJS yet&nbsp;again</h2>
+<p>I spent some time working on the build process for The Art Project. It seems like i was using the incorrect distribution of CanJS. Once i switched to <span class="caps">AMD</span>, things started working. Im still having problems though. Now the stache plugin is returning some funky errors. Still debugging what the errors actually&nbsp;mean. </p>
+<p>A question i have to bring up is why Steal doesn’t report better errors. Ill explain later as I’m still trying to make sure I
+m on the right&nbsp;track. </p>
+<h2 id="promises-and-deferreds">Promises and&nbsp;deferreds</h2>
+<p>I was working on a dialog implementation using can.component. Example usage of the component’s api was given to me and I just had to build it. Im glad i was given these examples as it seriously open my mind to the real possibilities of&nbsp;deferreds. </p>
+<p>Being able to use reject and resolve to trigger different callback without having to pass the callbacks to the dialog itself is genius. Ill be adding this to our component library&nbsp;asap. </p>
+<h2 id="web-workers">Web&nbsp;Workers</h2>
+<p>I read a primer on web workers this week and I’m curious if they can be used to compile templates. I am using a pseudo model to manage a calendar widget, I bet this can be refactored to be a web worker as&nbsp;well. </p>
+<p>It’s crazy how much the browser api and <span class="caps">ECMA</span> script combined have essentially become a programming environment like native mobile apps. Its cool and exciting, but also a little&nbsp;crazy. </p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <section class="about"><p>Juan Orozco is a web applications engineer living in Raleigh NC. Although he prefers front end development, he is a generalist and really just loves to solve problems.</p>
+<p>By day, he is a JavaScript developer working to build amazing web applications at Bitovi. By night, he is a tinkerer and explorer, leveling up his skills in web engineering, interface design, and digital anthropology.</p>
+<p>The Dev Journal is powered by Wintersmith, Gulp and Github Pages. Wintersmith is made by <a href="http://johan-nordberg.com/">Johan Nordberg</a> and licensed under the <a href="http://opensource.org/licenses/MIT">MIT-license</a>.</p>
+
+        </section>
+        <section class="copy">
+          <p>&copy; 2015 @Guamaso &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
