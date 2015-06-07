@@ -5,9 +5,122 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 24 Apr 2015 19:27:00 -0400</pubDate>
+    <pubDate>Fri, 05 Jun 2015 19:27:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 42</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-22/</link>
+      <pubDate>Fri, 05 Jun 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-22/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 43&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Retro Lists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;retro-lists&quot;&gt;Retro Lists&lt;/h2&gt;
+&lt;p&gt;I looooveee lists. LOVE. It surprised me that I haven’t been keeping a list of sprint retrospective items the past few months.  At the end of the sprint, I draw a blank for things we’ve done well and not-so-well.&lt;/p&gt;
+&lt;p&gt;This sprint, though, I kept a log. Stemming from my “Context Journal” (which is working GREAT, by the way), I decided to keep a page available in my notebook just for sprint notes.&lt;/p&gt;
+&lt;p&gt;It’s easy to keep a log of things that don’t go well. The hard part was recognizing things that went well (I think this is becauase when things go &lt;em&gt;really&lt;/em&gt; well, they are actually invisible; we don’t know they go well because there wasn’t a problem standing out). But by keeping the sprint goals and overall project goals in mind, it helps to see positive trends and what causes them.&lt;/p&gt;
+&lt;p&gt;Either way, keeping a log or a list and removing it from your mind helps retain focus for what needs attention now - and it also helps the review process later!&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 41</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-21/</link>
+      <pubDate>Fri, 29 May 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-21/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 41&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Implicit isn’t as strong as explicit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;implicit-isn-t-as-strong-as-explicit&quot;&gt;Implicit isn’t as strong as explicit&lt;/h2&gt;
+&lt;p&gt;I love working at Bitovi. There is this amazing freedom of being able to rely on each other. I know when I ask someone to do something, it will get done.  That hasn’t always been the case in my career. &lt;/p&gt;
+&lt;p&gt;Not all people we work with are the same, though. Some people require more direct management. I’ve found, especially this week, that people more often need explicit instructions instead of implicit instructions.  If I assign a task to someone I trust, I don’t have to really go through every detail, it is implicit that they will find the information and ask questions when needed.&lt;/p&gt;
+&lt;p&gt;Others need more explicit instruction and, let’s call it what it is, hand holding. Where this is more work for me, I’m OK with it. As long we understand that the real goal is to make this person more independent. We should be as autonomous as possible. When given a task, we should be able to bring it to completion without constant supervision (assuming the task is realistic, of course).&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 40</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-20/</link>
+      <pubDate>Fri, 22 May 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-20/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 40&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Turn it off&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;turn-it-off&quot;&gt;Turn it off&lt;/h2&gt;
+&lt;p&gt;I had a day off this week. A &lt;em&gt;real&lt;/em&gt; day off. Minor traveling involved… because it’s not a day off if you have chores or family trips. Although we did go on a family trip, we spent most of the time at the beach, about a few hours away. I got to play in the water with the kids, help them build &lt;em&gt;really crappy&lt;/em&gt; sand sculptures, and finished it off with a quick drive around the USS North Carolina (I’m a fan of war machines).&lt;/p&gt;
+&lt;p&gt;This kind of down time is few and far in between for me. The past month has been so hectic and busy and stressful, that this actually helped… A LOT. In fact, it reminded me what life &lt;em&gt;should&lt;/em&gt; be.&lt;/p&gt;
+&lt;p&gt;I love what I do. But the moment it starts to creep up on you and pull the wool over your eyes, you’re in danger. You can love what you do and then get soooo involved in that thing you love that you don’t realize that you really don’t love it anymore. You think you do but you don’t. It’s taken over your life and it reminds you that you love it and it trys sooooo hard to keep you near it. It know that as soon as you have time to take a breath, you’ll realize you don’t love it anymore and leave.&lt;/p&gt;
+&lt;p&gt;I’m not there. Not yet. But I did realize a lot this week about my pace. I knew I was overdoing it a few weeks ago. But my day off has given me measurable proof.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 39</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-19/</link>
+      <pubDate>Fri, 15 May 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-19/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 39&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Peeps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;peeps&quot;&gt;Peeps&lt;/h2&gt;
+&lt;p&gt;Short and sweet. Managing people is &lt;em&gt;hard&lt;/em&gt;. Not in a bad way. Well, sometimes. Not in this case though. It’s just a lot of work.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 38</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-18/</link>
+      <pubDate>Fri, 08 May 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-18/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 38&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Communication&lt;/li&gt;
+&lt;li&gt;Being Ok.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;communication&quot;&gt;Communication&lt;/h2&gt;
+&lt;p&gt;I remember getting in trouble with my parents as a young teenager for what boiled down to not communicating.  I don’t remember exactly what happened but it was something like I didn’t mention something important that needed to get done. Communicating issues is sooo important when working on a project with a life span. SOOOO important.&lt;/p&gt;
+&lt;p&gt;I think sometimes we get afraid to disappoint people either by admitting we can’t keep a promise or by not having a skill we probably should have. Either way, we absorb these concerns and, as a friend explained to me, we tell ourselves that we can make up the difference; we can catch up and deliver the deliverables.&lt;/p&gt;
+&lt;p&gt;Whether or not the culture primes this attitude or not, we should feel bad to be honest. Sometimes miscommunication stems from a misunderstanding, which we still shouldn’t feel bad about. Either way, I learned that when it comes to building applications (or really anything), mistakes are only failures if don’t learn from them. This is something I already believe but never applied it to professional relationships. Which brings me to my next thought…&lt;/p&gt;
+&lt;h2 id=&quot;being-ok&quot;&gt;Being Ok&lt;/h2&gt;
+&lt;p&gt;I have this annoying ability to feel &lt;em&gt;really&lt;/em&gt; bad when I fail my team mates, friends, and family.  I mean &lt;em&gt;really&lt;/em&gt; bad.  Part of recovering from a mistake is moving beyond the mistake. To do this, we have to be OK with ourselves first. Being OK with the part of us that made the mistake is part of learning process. Being OK with ourselves is part of accepting the mistake and understanding why it happened.&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Weeknotes 37</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes-2015-17/</link>
+      <pubDate>Fri, 01 May 2015 19:27:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes-2015-17/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 37&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Finding time to write&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;finding-time-to-write&quot;&gt;Finding time to write&lt;/h2&gt;
+&lt;p&gt;I see folks with the ability to turn off their messaging applications and walk away.&lt;/p&gt;
+&lt;p&gt;I admire that ability/skill. I don’t have it and it’s to my detriment. I think to have a good work-home balance, this ability is a requirement. There are posts about this everywhere from people of all experiences and skill levels. They all say the same thing, when you leave work, you &lt;em&gt;leave&lt;/em&gt; work. Furthermore, you should feel bad about doing so.&lt;/p&gt;
+&lt;p&gt;This problem is exacerbated by work-from-home-rs, but it doesn’t mean it’s not possible.  It comes down to managing distractions and task list, I think. But I’m sure there’s more to it… otherwise I would have time for my other hobbies!  Obviously, discipline is a huge factor.&lt;/p&gt;
+&lt;p&gt;Anyway, some weeks are good, some are bad. The past few weeks have been pretty busy. But I’m expecting that it will simmer down in June. I’m personally ok with spurts like this, a busy-ish month in the middle of consistent months. &lt;/p&gt;
+&lt;p&gt;Still, for the most part, I don’t “clock out” at five like the wife would like.&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 36</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2015-16/</link>
