@@ -5,9 +5,27 @@
     <atom:link href="http://dev.endgamestudio.com//feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>http://dev.endgamestudio.com/</link>
     <description>Dev journal, snippets, and rants.</description>
-    <pubDate>Fri, 05 Jun 2015 19:27:00 -0400</pubDate>
+    <pubDate>Fri, 12 Jun 2015 20:45:00 -0400</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>Weeknotes 43</title>
+      <link>http://dev.endgamestudio.com//articles/weeknotes_2015-23/</link>
+      <pubDate>Fri, 12 Jun 2015 20:45:00 -0400</pubDate>
+      <guid isPermaLink="true">http://dev.endgamestudio.com//articles/weeknotes_2015-23/</guid>
+      <author></author>
+      <description>&lt;p&gt;Week 43&lt;/p&gt;
+&lt;h1 id=&quot;weeknotes&quot;&gt;Weeknotes&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Lists&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
+&lt;p&gt;My world is held together by lists. When I conduct interviews, I list out my notes. When I need to do things? Lists. Lists. Lists.&lt;/p&gt;
+&lt;p&gt;When Brian, our CTO, published his series of articles on project checklists, I totally geeked out.  At first because it was a project &lt;em&gt;list&lt;/em&gt;.  The articles do a great job at explaining how useful checklists are and how the dev world can benefit greatly from them.  The list we’ve built is very extensive and it was interesting filling it out for our client.&lt;/p&gt;
+&lt;p&gt;We presented the list to our client this week and where we already were able to check off many of the items, we were able to explain and demonstrate areas of opportunity.  I don’t like being reactive to situations, it’s very ineffective long term.  The checklist is proactive. &lt;em&gt;Any&lt;/em&gt; checklist is proactive. Having &lt;em&gt;something&lt;/em&gt; is better than nothing. But why not use something someone else already built and is actively using it and improving it? :)&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>Weeknotes 42</title>
       <link>http://dev.endgamestudio.com//articles/weeknotes-2015-22/</link>
